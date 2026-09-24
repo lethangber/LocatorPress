@@ -24,6 +24,7 @@ extracted_strings.txt
 *.log
 *.tmp
 *.bak
+*.zip
 
 # Node & Composer dependencies (if any added later)
 node_modules/
