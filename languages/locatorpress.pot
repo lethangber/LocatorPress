@@ -1,0 +1,136 @@
+# Copyright (C) 2026 Antigravity
+# This file is distributed under the same license as the LocatorPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LocatorPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://locatorpress.com\n"
+"Last-Translator: Antigravity <support@locatorpress.com>\n"
+"Language-Team: Translation Team <support@locatorpress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-31 10:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: locatorpress\n"
+
+#: includes/providers/class-leaflet-provider.php:26
+msgid "Leaflet (OpenStreetMap - Keine API benötigt)"
+msgstr ""
+
+#: includes/providers/class-google-maps-provider.php:26
+msgid "Google Maps"
+msgstr ""
+
+#: includes/providers/class-goong-maps-provider.php:26
+msgid "Goong Maps (Optimiert für Vietnam)"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:53
+msgid "LocatorPress Dashboard"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:65
+#: includes/admin/class-admin-menu.php:66
+msgid "Standorte"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:75
+#: includes/admin/class-admin-menu.php:76
+msgid "Regionen"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:85
+#: includes/admin/class-admin-menu.php:86
+msgid "Import / Export"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:95
+#: includes/admin/class-admin-menu.php:96
+msgid "Einstellungen"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:146
+msgid "Bild auswählen"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:147
+msgid "Bild verwenden"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:148
+msgid "Geokodierung fehlgeschlagen. Bitte Breitengrad/Längengrad manuell eingeben."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:149
+#: templates/admin/locations.php:87
+msgid "Get Coordinates"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:54
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr ""
+
+#: includes/admin/class-location-controller.php:62
+#: includes/admin/class-location-controller.php:70
+msgid "Ungültiger Nonce-Sicherheitsschlüssel."
+msgstr ""
+
+#: includes/admin/class-location-controller.php:114
+#: templates/frontend/location-card.php:19
+msgid "Montag"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:115
+msgid "Dienstag"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:116
+msgid "Mittwoch"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:117
+msgid "Donnerstag"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:118
+msgid "Freitag"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:119
+msgid "Samstag"
+msgstr ""
+
+#: includes/admin/class-location-controller.php:120
+msgid "Sonntag"
+msgstr ""
+
+#: templates/frontend/location-card.php:17
+msgid "Geschlossen"
+msgstr ""
+
+#: templates/frontend/location-card.php:23
+#, php-format
+msgid "Geöffnet bis %s"
+msgstr ""
+
+#: templates/frontend/location-card.php:26
+#, php-format
+msgid "Geschlossen (Öffnet um %s)"
+msgstr ""
+
+#: templates/frontend/search-form.php:19
+msgid "Alle Regionen"
+msgstr ""
+
+#: templates/admin/settings.php:122
+msgid "Lokalisierung & Sprachen"
+msgstr ""
+
+#: templates/admin/settings.php:125
+msgid "Sprache manuell erzwingen"
+msgstr ""
+
+#: templates/admin/settings.php:127
+msgid "Standard (WordPress Spracherkennung)"
+msgstr ""

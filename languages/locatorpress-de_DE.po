@@ -1,0 +1,1205 @@
+# Copyright (C) 2026 Antigravity
+# This file is distributed under the same license as the LocatorPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LocatorPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://locatorpress.com\n"
+"Last-Translator: Antigravity <support@locatorpress.com>\n"
+"Language-Team: de_DE <support@locatorpress.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: locatorpress\n"
+
+#: includes/providers/class-leaflet-provider.php:26
+msgid "%d / %d Sites"
+msgstr "%d / %d Websites"
+
+msgid "%d / Unlimited Sites"
+msgstr "%d / Unbegrenzt Websites"
+
+msgid "%d Einträge"
+msgstr "%d Einträge"
+
+msgid "%d Einträge eingelesen. Starte Stapelverarbeitung..."
+msgstr "%d Einträge eingelesen. Starte Stapelverarbeitung..."
+
+msgid "%s all-time clicks"
+msgstr "%s Klicks insgesamt"
+
+msgid "%s all-time searches"
+msgstr "%s Suchen insgesamt"
+
+msgid "(Erfolgreich geokodiert!)"
+msgstr "(Erfolgreich geokodiert!)"
+
+msgid "(Geokodierung fehlgeschlagen!)"
+msgstr "(Geokodierung fehlgeschlagen!)"
+
+msgid "0 Standorte"
+msgstr "0 Standorte"
+
+msgid "<strong>LocatorPress Pro</strong> requires the free LocatorPress core plugin to be active. Please install and activate LocatorPress first."
+msgstr "<strong>LocatorPress Pro</strong> erfordert das kostenlose Haupt-Plugin LocatorPress. Bitte installieren und aktivieren Sie zuerst LocatorPress."
+
+msgid ">>> Import vollständig beendet!"
+msgstr ">>> Import vollständig beendet!"
+
+msgid "API Key revoked. Write endpoints are now disabled."
+msgstr "API-Schlüssel widerrufen. Schreib-Endpunkte sind jetzt deaktiviert."
+
+msgid "API access is disabled. Please generate an API key in the LocatorPress settings."
+msgstr "API-Zugriff ist deaktiviert. Bitte generieren Sie einen API-Schlüssel in den LocatorPress-Einstellungen."
+
+msgid "Abbrechen"
+msgstr "Abbrechen"
+
+msgid "Achtung: Dies verlängert den Import-Vorgang je nach Anzahl der Standorte, da Adressabfragen durchgeführt werden."
+msgstr "Achtung: Dies verlängert den Import-Vorgang je nach Anzahl der Standorte, da Adressabfragen durchgeführt werden."
+
+msgid "Activate"
+msgstr "Aktivieren"
+
+msgid "Activations"
+msgstr "Aktivierungen"
+
+msgid "Activity Chart (Last 30 Days)"
+msgstr "Aktivitätsdiagramm (Letzte 30 Tage)"
+
+msgid "Add Location"
+msgstr "Standort hinzufügen"
+
+msgid "Add Locations"
+msgstr "Standorte hinzufügen"
+
+msgid "Add New Tag"
+msgstr "Neuen Tag hinzufügen"
+
+msgid "Add Tag"
+msgstr "Tag hinzufügen"
+
+msgid "Add Time Range"
+msgstr "Zeitraum hinzufügen"
+
+msgid "Add to All Days"
+msgstr "Auf alle Tage anwenden"
+
+msgid "Adresse"
+msgstr "Adresse"
+
+msgid "Adresse (Vollständig) *"
+msgstr "Adresse (Vollständig) *"
+
+msgid "Adresse ist leer."
+msgstr "Adresse ist leer."
+
+msgid "Aktiv"
+msgstr "Aktiv"
+
+msgid "Aktiv (Sichtbar)"
+msgstr "Aktiv (Sichtbar)"
+
+msgid "All Days"
+msgstr "Alle Tage"
+
+msgid "All Locations"
+msgstr "Alle Standorte"
+
+msgid "All Tags"
+msgstr "Alle Tags"
+
+msgid "All-time: %s%% CTR"
+msgstr "Insgesamt: %s%% CTR"
+
+msgid "Alle Regionen"
+msgstr "Alle Regionen"
+
+msgid "Alle Stati"
+msgstr "Alle Stati"
+
+msgid "Allgemeine Informationen"
+msgstr "Allgemeine Informationen"
+
+msgid "An error occurred during license verification."
+msgstr "Ein Fehler ist bei der Lizenzüberprüfung aufgetreten."
+
+msgid "Analytics"
+msgstr "Statistiken"
+
+msgid "Anrufen"
+msgstr "Anrufen"
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Are you sure you want to delete this tag?"
+msgstr "Sind Sie sicher, dass Sie diesen Tag löschen möchten?"
+
+msgid "Are you sure you want to reset opening hours to default?"
+msgstr "Sind Sie sicher, dass Sie die Öffnungszeiten auf Standard zurücksetzen möchten?"
+
+msgid "Attribute"
+msgstr "Attribut"
+
+msgid "Aussehen & Design (Appearance Settings)"
+msgstr "Aussehen & Design (Appearance Settings)"
+
+msgid "Automatic fallback active"
+msgstr "Automatische Fallbacks aktiv"
+
+msgid "Automatisch (Browsereinstellung)"
+msgstr "Automatisch (Browsereinstellung)"
+
+msgid "Automatische Theme-Farberkennung aktivieren"
+msgstr "Automatische Theme-Farberkennung aktivieren"
+
+msgid "Avg. Results"
+msgstr "Durchschn. Ergebnisse"
+
+msgid "Bearbeiten"
+msgstr "Bearbeiten"
+
+msgid "Benutzerdefiniertes Marker-Bild"
+msgstr "Benutzerdefiniertes Marker-Bild"
+
+msgid "Beschreibung"
+msgstr "Beschreibung"
+
+msgid "Bild auswählen"
+msgstr "Bild auswählen"
+
+msgid "Bild entfernen"
+msgstr "Bild entfernen"
+
+msgid "Bild verwenden"
+msgstr "Bild verwenden"
+
+msgid "Bild wählen"
+msgstr "Bild wählen"
+
+msgid "Bitte wählen Sie eine CSV-Datei aus."
+msgstr "Bitte wählen Sie eine CSV-Datei aus."
+
+msgid "Breitengrad (Latitude)"
+msgstr "Breitengrad (Latitude)"
+
+msgid "Build a hierarchy like Country → State → City to categorize your locations."
+msgstr "Erstellen Sie Hierarchien wie z. B. Deutschland -> Bayern -> München, um Ihre Standorte übersichtlich zu strukturieren."
+
+msgid "Button-Farbe (Button Color)"
+msgstr "Button-Farbe (Button Color)"
+
+msgid "CSV Import & Export"
+msgstr "CSV Import & Export"
+
+msgid "CSV herunterladen (.csv)"
+msgstr "CSV herunterladen (.csv)"
+
+msgid "CSV-Datei auswählen *"
+msgstr "CSV-Datei auswählen *"
+
+msgid "CSV-Formatierung"
+msgstr "CSV-Formatierung"
+
+msgid "Cache-Dauer der Suchanfragen (in Sekunden)"
+msgstr "Cache-Dauer der Suchanfragen (in Sekunden)"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Changeable in Settings"
+msgstr "In den Einstellungen änderbar"
+
+msgid "Clicks"
+msgstr "Klicks"
+
+msgid "Closed"
+msgstr "Geschlossen"
+
+msgid "Closed all day"
+msgstr "Den ganzen Tag geschlossen"
+
+msgid "Conversion Rate (30 Days)"
+msgstr "Conversion-Rate (30 Tage)"
+
+msgid "Copy Hours To…"
+msgstr "Zeiten kopieren nach…"
+
+msgid "Copy hours to other days"
+msgstr "Zeiten auf andere Tage kopieren"
+
+msgid "Could not calculate routing directions for this store."
+msgstr "Routenführung für dieses Geschäft konnte nicht berechnet werden."
+
+msgid "Could not connect to the license server."
+msgstr "Verbindung zum Lizenzserver fehlgeschlagen."
+
+msgid "Create Regions"
+msgstr "Regionen anlegen"
+
+msgid "Create and manage tags to organize your store locations."
+msgstr "Erstellen und verwalten Sie Tags, um Ihre Standorte zu organisieren."
+
+msgid "Creates a new location in the directory."
+msgstr "Erstellt einen neuen Standort im Verzeichnis."
+
+msgid "Customer routing requests"
+msgstr "Kunden-Routenanfragen"
+
+msgid "Dark Mode (Dunkel)"
+msgstr "Dark Mode (Dunkel)"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Database deletion failed."
+msgstr "Löschen in der Datenbank fehlgeschlagen."
+
+msgid "Database update failed."
+msgstr "Aktualisierung in der Datenbank fehlgeschlagen."
+
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Deletes a location permanently from the database."
+msgstr "Löscht einen Standort dauerhaft aus der Datenbank."
+
+msgid "Der Import ist in der kostenlosen Version auf %d Datensätze beschränkt. Bitte upgraden Sie auf LocatorPress Pro für unbegrenzte Imports."
+msgstr "Der Import ist in der kostenlosen Version auf %d Datensätze beschränkt. Bitte upgraden Sie auf LocatorPress Pro für unbegrenzte Imports."
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Developer API References"
+msgstr "Entwickler-API-Referenzen"
+
+msgid "Dezimalzahlen (optional)"
+msgstr "Dezimalzahlen (optional)"
+
+msgid "Die CSV-Datei enthält keine nutzbaren Daten."
+msgstr "Die CSV-Datei enthält keine nutzbaren Daten."
+
+msgid "Die CSV-Datei muss UTF-8-kodiert sein und ein Semikolon (;) oder Komma (,) als Trennzeichen verwenden."
+msgstr "Die CSV-Datei muss UTF-8-kodiert sein und ein Semikolon (;) oder Komma (,) als Trennzeichen verwenden."
+
+msgid "Die URL-taugliche Variante des Namens. Standardmäßig automatisch generiert."
+msgstr "Die URL-taugliche Variante des Namens. Standardmäßig automatisch generiert."
+
+msgid "Die erste Zeile muss genau folgende Spaltenüberschriften enthalten:"
+msgstr "Die erste Zeile muss genau folgende Spaltenüberschriften enthalten:"
+
+msgid "Dienst zur Adressauflösung beim Importieren oder Speichern von Standorten."
+msgstr "Dienst zur Adressauflösung beim Importieren oder Speichern von Standorten."
+
+msgid "Dienstag"
+msgstr "Dienstag"
+
+msgid "Directions (30 Days)"
+msgstr "Routen (30 Tage)"
+
+msgid "Dismiss"
+msgstr "Ausblenden"
+
+msgid "Donate"
+msgstr "Spenden"
+
+msgid "Donate via PayPal"
+msgstr "Per PayPal spenden"
+
+msgid "Donnerstag"
+msgstr "Donnerstag"
+
+msgid "Drag to reorder"
+msgstr "Ziehen zum Umsortieren"
+
+msgid "Dunkel (Dark Mode)"
+msgstr "Dunkel (Dark Mode)"
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "E-Mail senden"
+msgstr "E-Mail senden"
+
+msgid "E-Mail-Adresse"
+msgstr "E-Mail-Adresse"
+
+msgid "Eckenabrundung (Border Radius)"
+msgstr "Eckenabrundung (Border Radius)"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit Tag"
+msgstr "Tag bearbeiten"
+
+msgid "Eigenes Bild/Icon hochladen"
+msgstr "Eigenes Bild/Icon hochladen"
+
+msgid "Einstellungen"
+msgstr "Einstellungen"
+
+msgid "Einstellungen erfolgreich gespeichert."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+msgid "Einstellungen speichern"
+msgstr "Einstellungen speichern"
+
+msgid "Embed on Your Site"
+msgstr "Karten auf der Website einbetten"
+
+msgid "Embed the store locator anywhere:"
+msgstr "Binden Sie den Store Locator überall ein:"
+
+msgid "Enabled & Active"
+msgstr "Aktiviert & Aktiv"
+
+msgid "Enjoy LocatorPress for free?"
+msgstr "Gefällt Ihnen LocatorPress?"
+
+msgid "Enter your stores with address, contact info, opening hours and images — or import them via CSV."
+msgstr "Fügen Sie Ihre Geschäfte mit Anschrift, Kontaktdaten, individuellen Öffnungszeiten und Bildmaterial hinzu — oder importieren Sie diese per CSV."
+
+msgid "Entfernungs-Maßeinheit"
+msgstr "Entfernungs-Maßeinheit"
+
+msgid "Erfassen Sie alle Adress- und Kontaktdaten für diesen Shop."
+msgstr "Erfassen Sie alle Adress- und Kontaktdaten für diesen Shop."
+
+msgid "Erfolgreich abgeschlossen!"
+msgstr "Erfolgreich abgeschlossen!"
+
+msgid "Erforderlich für das Laden der Goong-Kartenkacheln."
+msgstr "Erforderlich für das Laden der Goong-Kartenkacheln."
+
+msgid "Erforderlich, falls Google Maps als Kartenanbieter oder Geocoding-Dienst ausgewählt ist."
+msgstr "Erforderlich, falls Google Maps als Kartenanbieter oder Geocoding-Dienst ausgewählt ist."
+
+msgid "Erkennt automatisch die primäre Farbe Ihres aktiven WordPress-Themes und wendet sie auf den Store Locator an."
+msgstr "Erkennt automatisch die primäre Farbe Ihres aktiven WordPress-Themes und wendet sie auf den Store Locator an."
+
+msgid "Ermöglicht es Frontend-Besuchern, ihren aktuellen Standort per GPS abzurufen, um nahegelegene Standorte zu suchen."
+msgstr "Ermöglicht es Frontend-Besuchern, ihren aktuellen Standort per GPS abzurufen, um nahegelegene Standorte zu suchen."
+
+msgid "Ermöglicht es Ihnen, die Anzeigesprache für Frontend und Backend festzulegen. Standardmäßig wird die aktive WordPress-Sprachumgebung automatisch erkannt."
+msgstr "Ermöglicht es Ihnen, die Anzeigesprache für Frontend und Backend festzulegen. Standardmäßig wird die aktive WordPress-Sprachumgebung automatisch erkannt."
+
+msgid "Erstellen Sie eine hierarchische Gliederung (z. B. Land -> Bundesland -> Stadt) zur Organisation Ihrer Standorte."
+msgstr "Erstellen Sie eine hierarchische Gliederung (z. B. Land -> Bundesland -> Stadt) zur Organisation Ihrer Standorte."
+
+msgid "Expired"
+msgstr "Abgelaufen"
+
+msgid "Expiry Date"
+msgstr "Ablaufdatum"
+
+msgid "Exportieren Sie alle eingetragenen Standorte in eine strukturierte CSV-Datei."
+msgstr "Exportieren Sie alle eingetragenen Standorte in eine strukturierte CSV-Datei."
+
+msgid "Failed to fetch routing from Goong API."
+msgstr "Routenabfrage von Goong API fehlgeschlagen."
+
+msgid "Failed to save location to database."
+msgstr "Speichern des Standortes in der Datenbank fehlgeschlagen."
+
+msgid "Farbschema (Light / Dark Mode)"
+msgstr "Farbschema (Light / Dark Mode)"
+
+msgid "Fasst nahe beieinander liegende Standorte bei niedrigen Zoomstufen zu Clustern zusammen."
+msgstr "Fasst nahe beieinander liegende Standorte bei niedrigen Zoomstufen zu Clustern zusammen."
+
+msgid "Fehlende Geokoordinaten automatisch ermitteln"
+msgstr "Fehlende Geokoordinaten automatisch ermitteln"
+
+msgid "Fehler beim Speichern von: %s"
+msgstr "Fehler beim Speichern von: %s"
+
+msgid "Fehler im Stapel:"
+msgstr "Fehler im Stapel:"
+
+msgid "Filter by tag"
+msgstr "Nach Tag filtern"
+
+msgid "Filtern"
+msgstr "Filtern"
+
+msgid "Font Awesome Icon (Standard)"
+msgstr "Font Awesome Icon (Standard)"
+
+msgid "Font Awesome Icon auswählen"
+msgstr "Font Awesome Icon auswählen"
+
+msgid "Freitag"
+msgstr "Freitag"
+
+msgid "Genaue Postanschrift (erforderlich)"
+msgstr "Genaue Postanschrift (erforderlich)"
+
+msgid "Generate Key"
+msgstr "Schlüssel generieren"
+
+msgid "Generate REST API keys to perform secure write operations (Create, Update, Delete) on your locations database from third-party apps."
+msgstr "Generieren Sie REST-API-Schlüssel, um sichere Schreibvorgänge (Erstellen, Aktualisieren, Löschen) in Ihrer Standortdatenbank über Drittanbieter-Apps auszuführen."
+
+msgid "Geocoding Service"
+msgstr "Geocoding-Dienst"
+
+msgid "Geocoding-Dienst"
+msgstr "Geocoding-Dienst"
+
+msgid "Geokodierung fehlgeschlagen."
+msgstr "Geokodierung fehlgeschlagen."
+
+msgid "Geokodierung fehlgeschlagen. Bitte Breitengrad/Längengrad manuell eingeben."
+msgstr "Geokodierung fehlgeschlagen. Bitte Breitengrad/Längengrad manuell eingeben."
+
+msgid "Geokoordinaten"
+msgstr "Geokoordinaten"
+
+msgid "Gesamtes Gebiet"
+msgstr "Gesamtes Gebiet"
+
+msgid "Geschlossen"
+msgstr "Geschlossen"
+
+msgid "Geschlossen (Öffnet um %s)"
+msgstr "Geschlossen (Öffnet um %s)"
+
+msgid "Get Coordinates"
+msgstr "Koordinaten abrufen"
+
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+msgid "Geöffnet"
+msgstr "Geöffnet"
+
+msgid "Geöffnet bis %s"
+msgstr "Geöffnet bis %s"
+
+msgid "Google Geocoding API"
+msgstr "Google Geocoding API"
+
+msgid "Google Maps"
+msgstr "Google Maps"
+
+msgid "Google Maps API-Key"
+msgstr "Google Maps API-Key"
+
+msgid "Google Maps Platform Integration"
+msgstr "Google Maps Platform Integration"
+
+msgid "Goong API Key is not configured."
+msgstr "Goong-API-Schlüssel ist nicht konfiguriert."
+
+msgid "Goong Geocoding API (Viet Nam)"
+msgstr "Goong Geocoding API (Vietnam)"
+
+msgid "Goong Geocoding API-Key"
+msgstr "Goong Geocoding API-Key"
+
+msgid "Goong Maps (Optimiert für Vietnam)"
+msgstr "Goong Maps (Optimiert für Vietnam)"
+
+msgid "Goong Maps (Viet Nam)"
+msgstr "Goong Maps (Viet Nam)"
+
+msgid "Goong Maps Integration (optimized for Vietnam)"
+msgstr "Goong Maps Integration (für Vietnam optimiert)"
+
+msgid "Goong Maps Map Token (Key)"
+msgstr "Goong Maps Map Token (Key)"
+
+msgid "Hell (Light Mode)"
+msgstr "Hell (Light Mode)"
+
+msgid "Hier sehen Sie alle eingetragenen Filialen und Geschäfte Ihres Locators."
+msgstr "Hier sehen Sie alle eingetragenen Filialen und Geschäfte Ihres Locators."
+
+msgid "Hierarchical categories"
+msgstr "Kategorisierte Hierarchie"
+
+msgid "Icon suchen..."
+msgstr "Icon suchen..."
+
+msgid "Icon ändern"
+msgstr "Icon ändern"
+
+msgid "Icon/Kontur-Farbe"
+msgstr "Icon/Kontur-Farbe"
+
+msgid "If this plugin saves you time or money, a small donation helps keep it actively maintained and ad-free."
+msgstr "Wenn dieses Plugin Ihnen Zeit oder Geld spart, hilft eine kleine Spende, es aktiv zu pflegen und werbefrei zu halten."
+
+msgid "Ihr Standort wurde gefunden."
+msgstr "Ihr Standort wurde gefunden."
+
+msgid "Import / Export"
+msgstr "Import / Export"
+
+msgid "Import starten"
+msgstr "Import starten"
+
+msgid "Importfortschritt"
+msgstr "Importfortschritt"
+
+msgid "Importieren Sie Hunderte von Standorten auf einmal oder exportieren Sie Ihre bestehende Datenbank."
+msgstr "Importieren Sie Hunderte von Standorten auf einmal oder exportieren Sie Ihre bestehende Datenbank."
+
+msgid "Importiert: %s%s"
+msgstr "Importiert: %s%s"
+
+msgid "Inaktiv"
+msgstr "Inaktiv"
+
+msgid "Inaktiv (Ausgeblendet)"
+msgstr "Inaktiv (Ausgeblendet)"
+
+msgid "Interactions (30 Days)"
+msgstr "Interaktionen (30 Tage)"
+
+msgid "Invalid API Key."
+msgstr "Ungültiger API-Schlüssel."
+
+msgid "Invalid nonce."
+msgstr "Ungültiger Nonce-Sicherheitsschlüssel."
+
+msgid "Invalid response from license server."
+msgstr "Ungültige Rückmeldung vom Lizenzserver."
+
+msgid "Karten-Schattenwurf (Card Shadow)"
+msgstr "Karten-Schattenwurf (Card Shadow)"
+
+msgid "Kartenanbieter & APIs"
+msgstr "Kartenanbieter & APIs"
+
+msgid "Kartendesign (Map Style)"
+msgstr "Kartendesign (Map Style)"
+
+msgid "Kartenverhalten & Standardwerte"
+msgstr "Kartenverhalten & Standardwerte"
+
+msgid "Keep this key secret. Include it in your requests in the custom HTTP Header: X-LocatorPress-Key"
+msgstr "Halten Sie diesen Schlüssel geheim. Fügen Sie ihn in den benutzerdefinierten HTTP-Header X-LocatorPress-Key ein."
+
+msgid "Keine (Oberste Ebene)"
+msgstr "Keine (Oberste Ebene)"
+
+msgid "Keine Berechtigung."
+msgstr "Keine Berechtigung."
+
+msgid "Keine Daten empfangen."
+msgstr "Keine Daten empfangen."
+
+msgid "Keine Einträge zum Importieren gefunden."
+msgstr "Keine Einträge zum Importieren gefunden."
+
+msgid "Keine Regionen angelegt."
+msgstr "Keine Regionen angelegt."
+
+msgid "Keine Standorte gefunden."
+msgstr "Keine Standorte gefunden."
+
+msgid "Keine Standorte in diesem Radius gefunden."
+msgstr "Keine Standorte in diesem Radius gefunden."
+
+msgid "Keine ausreichenden Berechtigungen."
+msgstr "Keine ausreichenden Berechtigungen."
+
+msgid "Kilometer (Km)"
+msgstr "Kilometer (Km)"
+
+msgid "Konfigurieren Sie Kartenanbieter, API-Schlüssel und das Verhalten des Store Locators."
+msgstr "Konfigurieren Sie Kartenanbieter, API-Schlüssel und das Verhalten des Store Locators."
+
+msgid "Kontakt & Details"
+msgstr "Kontakt & Details"
+
+msgid "Leaflet (OpenStreetMap - Keine API benötigt)"
+msgstr "Leaflet (OpenStreetMap - Keine API benötigt)"
+
+msgid "Leaflet (OpenStreetMap - Kostenlos)"
+msgstr "Leaflet (OpenStreetMap - Keine API benötigt)"
+
+msgid "Leaflet benötigt keinen API-Schlüssel und ist standardmäßig aktiv."
+msgstr "Leaflet benötigt keinen API-Schlüssel und ist standardmäßig aktiv."
+
+msgid "Leave a Review"
+msgstr "Bewertung hinterlassen"
+
+msgid "Lese CSV-Datei..."
+msgstr "Lese CSV-Datei..."
+
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+msgid "License Required"
+msgstr "Lizenz erforderlich"
+
+msgid "License Type"
+msgstr "Lizenztyp"
+
+msgid "License activated successfully!"
+msgstr "Lizenz erfolgreich aktiviert!"
+
+msgid "License deactivated successfully!"
+msgstr "Lizenz erfolgreich deaktiviert!"
+
+msgid "License key is empty."
+msgstr "Lizenzschlüssel ist leer."
+
+msgid "License key saved."
+msgstr "Lizenzschlüssel gespeichert."
+
+msgid "License verification failed."
+msgstr "Lizenzprüfung fehlgeschlagen."
+
+msgid "Lifetime"
+msgstr "Lebenslang"
+
+msgid "Lifetime Automated Updates & support"
+msgstr "Lebenslange automatische Updates & Support"
+
+msgid "Location"
+msgstr "Standort"
+
+msgid "Location created successfully."
+msgstr "Standort erfolgreich erstellt."
+
+msgid "Location deleted successfully."
+msgstr "Standort erfolgreich gelöscht."
+
+msgid "Location not found."
+msgstr "Standort nicht gefunden."
+
+msgid "Location updated successfully."
+msgstr "Standort erfolgreich aktualisiert."
+
+msgid "LocatorPress API Authorization Key"
+msgstr "LocatorPress-API-Autorisierungsschlüssel"
+
+msgid "LocatorPress Dashboard"
+msgstr "LocatorPress Dashboard"
+
+msgid "LocatorPress Einstellungen"
+msgstr "LocatorPress Einstellungen"
+
+msgid "LocatorPress Pro License"
+msgstr "LocatorPress Pro-Lizenz"
+
+msgid "LocatorPress is free and open source. If it helps your project, please consider leaving a 5-star review or making a small donation."
+msgstr "LocatorPress ist kostenlos und Open Source. Wenn es Ihrem Projekt hilft, hinterlassen Sie uns bitte eine 5-Sterne-Bewertung oder spenden Sie einen kleinen Betrag."
+
+msgid "LocatorPress lets you display stores, branches, or any locations on beautiful interactive maps. Follow these steps to get started:"
+msgstr "LocatorPress ermöglicht es Ihnen, Filialen, Verkaufsstellen oder Standorte auf modernen, interaktiven Karten zu präsentieren. Befolgen Sie diese einfachen Schritte, um zu starten:"
+
+msgid "Lokalisierung & Sprachen"
+msgstr "Lokalisierung & Sprachen"
+
+msgid "Längengrad (Longitude)"
+msgstr "Längengrad (Longitude)"
+
+msgid "Löschen"
+msgstr "Löschen"
+
+msgid "Manage Regions"
+msgstr "Regionen verwalten"
+
+msgid "Manage Store Tags"
+msgstr "Shop-Tags verwalten"
+
+msgid "Manage your license settings, view validation status, and unlock automated updates."
+msgstr "Verwalten Sie Ihre Lizenzeinstellungen, sehen Sie den Validierungsstatus ein und schalten Sie automatische Updates frei."
+
+msgid "Map Provider"
+msgstr "Kartenanbieter"
+
+msgid "Marker-Clustering aktivieren"
+msgstr "Marker-Clustering aktivieren"
+
+msgid "Marker-Typ"
+msgstr "Marker-Typ"
+
+msgid "Meilen (Miles)"
+msgstr "Meilen (Miles)"
+
+msgid "Meinen Standort ermitteln"
+msgstr "Meinen Standort ermitteln"
+
+msgid "Missing origin or destination coordinates."
+msgstr "Fehlende Start- oder Zielkoordinaten."
+
+msgid "Missing required fields: title, address"
+msgstr "Erforderliche Felder fehlen: Name, Adresse"
+
+msgid "Mittwoch"
+msgstr "Mittwoch"
+
+msgid "Monitor locator activity, queries, customer interactions, and conversion rates."
+msgstr "Überwachen Sie Locator-Aktivitäten, Suchanfragen, Kundeninteraktionen und Conversion-Rates."
+
+msgid "Montag"
+msgstr "Montag"
+
+msgid "Most Interactive Locations"
+msgstr "Interaktivste Standorte"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name der Region *"
+msgstr "Name der Region *"
+
+msgid "Name des Standortes (erforderlich)"
+msgstr "Name des Standortes (erforderlich)"
+
+msgid "Name des Standortes *"
+msgstr "Name des Standortes *"
+
+msgid "Near Me (GPS)"
+msgstr "In meiner Nähe (GPS)"
+
+msgid "Netzwerk- oder Serverfehler bei der Stapelverarbeitung."
+msgstr "Netzwerk- oder Serverfehler bei der Stapelverarbeitung."
+
+msgid "Neue Region hinzufügen"
+msgstr "Neue Region hinzufügen"
+
+msgid "Neuen Standort hinzufügen"
+msgstr "Neuen Standort hinzufügen"
+
+msgid "New API Key generated successfully!"
+msgstr "Neuer API-Schlüssel erfolgreich generiert!"
+
+msgid "No active API Key. Generate one below."
+msgstr "Kein aktiver API-Schlüssel. Generieren Sie unten einen."
+
+msgid "No clicks tracked yet."
+msgstr "Noch keine Klicks erfasst."
+
+msgid "No fields to update."
+msgstr "Keine Felder zum Aktualisieren."
+
+msgid "No permission."
+msgstr "Keine Berechtigung."
+
+msgid "No searches tracked yet."
+msgstr "Noch keine Suchen erfasst."
+
+msgid "No tags created yet. <a href=\"%s\" target=\"_blank\">Manage Tags</a>"
+msgstr "Noch keine Tags erstellt. <a href=\"%s\" target=\"_blank\">Tags verwalten</a>"
+
+msgid "No tags found."
+msgstr "Keine Tags gefunden."
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Numerische ID der Region (optional)"
+msgstr "Numerische ID der Region (optional)"
+
+msgid "Open"
+msgstr "Geöffnet"
+
+msgid "Open Now"
+msgstr "Jetzt geöffnet"
+
+msgid "Open all day"
+msgstr "Ganztägig geöffnet"
+
+msgid "OpenStreetMap Nominatim (Kostenlos)"
+msgstr "OpenStreetMap Nominatim (Kostenlos)"
+
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+msgid "Optional Attributes:"
+msgstr "Verfügbare Attribute (optional):"
+
+msgid "PLZ, Stadt oder Name eingeben..."
+msgstr "PLZ, Stadt oder Name eingeben..."
+
+msgid "Performance & Features"
+msgstr "Performance & Features"
+
+msgid "Pin Hintergrund"
+msgstr "Pin Hintergrund"
+
+msgid "Please enable location services or search for a location first to calculate routes."
+msgstr "Bitte aktivieren Sie die Standortdienste oder suchen Sie zuerst nach einem Standort, um Routen zu berechnen."
+
+msgid "Please enter a valid license key."
+msgstr "Bitte geben Sie einen gültigen Lizenzschlüssel ein."
+
+msgid "Please enter your license key to activate Google Maps, Goong Maps, and unlimited CSV imports."
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel ein, um Google Maps, Goong Maps und unbegrenzte CSV-Importe zu aktivieren."
+
+msgid "Popular Search Queries"
+msgstr "Beliebte Suchanfragen"
+
+msgid "Primärfarbe (Primary Color)"
+msgstr "Primärfarbe (Primary Color)"
+
+msgid "Pro Features Active"
+msgstr "Pro-Funktionen aktiv"
+
+msgid "REST API"
+msgstr "REST-API"
+
+msgid "REST API Keys"
+msgstr "REST-API-Schlüssel"
+
+msgid "REST API Webhooks & Keys"
+msgstr "REST-API-Webhooks & Schlüssel"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Region aktualisieren"
+msgstr "Region aktualisieren"
+
+msgid "Region anlegen"
+msgstr "Region anlegen"
+
+msgid "Region bearbeiten"
+msgstr "Region bearbeiten"
+
+msgid "Region erfolgreich aktualisiert."
+msgstr "Region erfolgreich aktualisiert."
+
+msgid "Region erfolgreich angelegt."
+msgstr "Region erfolgreich angelegt."
+
+msgid "Region erfolgreich gelöscht."
+msgstr "Region erfolgreich gelöscht."
+
+msgid "Region filtern"
+msgstr "Region filtern"
+
+msgid "Region nicht gefunden."
+msgstr "Region nicht gefunden."
+
+msgid "Regionen"
+msgstr "Regionen"
+
+msgid "Regionen verwalten"
+msgstr "Regionen verwalten"
+
+msgid "Regions"
+msgstr "Regionen"
+
+msgid "Remove time range"
+msgstr "Zeitraum entfernen"
+
+msgid "Reset to Default"
+msgstr "Auf Standard zurücksetzen"
+
+msgid "Retro"
+msgstr "Retro"
+
+msgid "Revoke Key"
+msgstr "Schlüssel widerrufen"
+
+msgid "Routenplaner"
+msgstr "Routenplaner"
+
+msgid "Routing"
+msgstr "Routenführung"
+
+msgid "Samstag"
+msgstr "Samstag"
+
+msgid "Search & Click Analytics"
+msgstr "Such- & Klick-Statistiken"
+
+msgid "Search Analytics"
+msgstr "Suchstatistiken"
+
+msgid "Search Analytics and Click Analytics tracker"
+msgstr "Suchstatistiken und Klickstatistiken-Tracker"
+
+msgid "Search Query"
+msgstr "Suchanfrage"
+
+msgid "Searches"
+msgstr "Suchen"
+
+msgid "Searches (30 Days)"
+msgstr "Suchen (30 Tage)"
+
+msgid "Sekundärfarbe (Secondary Color)"
+msgstr "Sekundärfarbe (Secondary Color)"
+
+msgid "Select the days you want to copy these hours to:"
+msgstr "Wählen Sie die Tage, auf die Sie diese Zeiten kopieren möchten:"
+
+msgid "Set your business hours for each day of the week."
+msgstr "Legen Sie Ihre Öffnungszeiten für jeden Wochentag fest."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Shortcode Reference"
+msgstr "Shortcode Übersicht"
+
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "Sie haben keine Berechtigung für diese Aktion."
+
+msgid "Silber"
+msgstr "Silber"
+
+msgid "Sind Sie sicher?"
+msgstr "Sind Sie sicher?"
+
+msgid "Sind Sie sicher? Alle Unterregionen werden nach oben verschoben und die zugewiesenen Standorte werden unkategorisiert."
+msgstr "Sind Sie sicher? Alle Unterregionen werden nach oben verschoben und die zugewiesenen Standorte werden unkategorisiert."
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Slug (URL-freundlich)"
+msgstr "Slug (URL-freundlich)"
+
+msgid "Sonntag"
+msgstr "Sonntag"
+
+msgid "Sprache manuell erzwingen"
+msgstr "Sprache manuell erzwingen"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Standard (WordPress Spracherkennung)"
+msgstr "Standard (WordPress Spracherkennung)"
+
+msgid "Standard-Breitengrad (Lat)"
+msgstr "Standard-Breitengrad (Lat)"
+
+msgid "Standard-Kartenanbieter"
+msgstr "Standard-Kartenanbieter"
+
+msgid "Standard-Längengrad (Lng)"
+msgstr "Standard-Längengrad (Lng)"
+
+msgid "Standard-Zoomstufe"
+msgstr "Standard-Zoomstufe"
+
+msgid "Standort auf Karte festlegen"
+msgstr "Standort auf Karte festlegen"
+
+msgid "Standort bearbeiten"
+msgstr "Standort bearbeiten"
+
+msgid "Standort erfolgreich aktualisiert."
+msgstr "Standort erfolgreich aktualisiert."
+
+msgid "Standort erfolgreich angelegt."
+msgstr "Standort erfolgreich angelegt."
+
+msgid "Standort erfolgreich gelöscht."
+msgstr "Standort erfolgreich gelöscht."
+
+msgid "Standort gefunden"
+msgstr "Standort gefunden"
+
+msgid "Standort nicht gefunden."
+msgstr "Standort nicht gefunden."
+
+msgid "Standort speichern"
+msgstr "Standort speichern"
+
+msgid "Standortbestimmung fehlgeschlagen."
+msgstr "Standortbestimmung fehlgeschlagen."
+
+msgid "Standortbild"
+msgstr "Standortbild"
+
+msgid "Standorte"
+msgstr "Standorte"
+
+msgid "Standorte aus CSV importieren"
+msgstr "Standorte aus CSV importieren"
+
+msgid "Standorte exportieren"
+msgstr "Standorte exportieren"
+
+msgid "Standorte gefunden"
+msgstr "Standorte gefunden"
+
+msgid "Standorte suchen:"
+msgstr "Standorte suchen:"
+
+msgid "Standorte verwalten"
+msgstr "Standorte verwalten"
+
+msgid "Starte Importvorgang..."
+msgstr "Starte Importvorgang..."
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Store Location"
+msgstr "Filiale"
+
+msgid "Store Manager"
+msgstr "Shop-Manager"
+
+msgid "Store Tags & Advanced Category Filtering"
+msgstr "Shop-Tags & erweiterte Kategoriefilterung"
+
+msgid "Suche"
+msgstr "Suche"
+
+msgid "Suche starten..."
+msgstr "Suche starten..."
+
+msgid "Suchen"
+msgstr "Suchen"
+
+msgid "Support This Plugin"
+msgstr "Unterstützen Sie dieses Plugin"
+
+msgid "Tag Name *"
+msgstr "Tag-Name *"
+
+msgid "Tag created successfully."
+msgstr "Tag erfolgreich erstellt."
+
+msgid "Tag deleted successfully."
+msgstr "Tag erfolgreich gelöscht."
+
+msgid "Tag updated successfully."
+msgstr "Tag erfolgreich aktualisiert."
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Telefonnummer"
+msgstr "Telefonnummer"
+
+msgid "Textfarbe (Text Color)"
+msgstr "Textfarbe (Text Color)"
+
+msgid "Tip: Use \"Add to All Days\" to quickly set the same hours across multiple days."
+msgstr "Tipp: Nutzen Sie „Auf alle Tage anwenden\", um schnell dieselben Zeiten für mehrere Tage zu setzen."
+
+msgid "Toggle time slots"
+msgstr "Zeitslots ein-/ausblenden"
+
+msgid "Total Clicks"
+msgstr "Klicks insgesamt"
+
+msgid "Total Locations"
+msgstr "Standorte insgesamt"
+
+msgid "Umkreis"
+msgstr "Umkreis"
+
+msgid "Ungültiger Nonce-Sicherheitsschlüssel."
+msgstr "Ungültiger Nonce-Sicherheitsschlüssel."
+
+msgid "Unlimited CSV Import & Export records"
+msgstr "Unbegrenzte CSV-Import- & Export-Einträge"
+
+msgid "Unlocks Premium Features:"
+msgstr "Schaltet Premium-Funktionen frei:"
+
+msgid "Update Tag"
+msgstr "Tag aktualisieren"
+
+msgid "Updates & Support"
+msgstr "Updates & Support"
+
+msgid "Updates an existing location by its database ID."
+msgstr "Aktualisiert einen bestehenden Standort anhand seiner Datenbank-ID."
+
+msgid "Use the shortcode [locatorpress] on any page, Gutenberg block, or Elementor widget."
+msgstr "Nutzen Sie den Shortcode [locatorpress] auf einer beliebigen Seite, im Gutenberg-Block oder direkt in Ihrem Elementor-Layout."
+
+msgid "Verarbeite Zeilen %s bis %s von %s..."
+msgstr "Verarbeite Zeilen %s bis %s von %s..."
+
+msgid "Verhindert wiederholte schwere Datenbankabfragen bei identischen Suchanfragen. Setzen Sie 0, um den Cache zu deaktivieren."
+msgstr "Verhindert wiederholte schwere Datenbankabfragen bei identischen Suchanfragen. Setzen Sie 0, um den Cache zu deaktivieren."
+
+msgid "Veröffentlichung"
+msgstr "Veröffentlichung"
+
+msgid "Visit %1$s at %2$s. Find business hours, contact info, and directions."
+msgstr "Besuchen Sie %1$s in %2$s. Finden Sie Öffnungszeiten, Kontaktinformationen und Routenplaner."
+
+msgid "Vorschau"
+msgstr "Vorschau"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Website besuchen"
+msgstr "Website besuchen"
+
+msgid "Website-URL"
+msgstr "Website-URL"
+
+msgid "Weekdays Only (Mon–Fri)"
+msgstr "Nur Werktage (Mo–Fr)"
+
+msgid "Weekends Only (Sat–Sun)"
+msgstr "Nur Wochenende (Sa–So)"
+
+msgid "Welcome to your Store Locator control panel."
+msgstr "Willkommen im Kontrollzentrum Ihres modernen Store Locators."
+
+msgid "Wird für Goong-Suchen und Adressauflösung (Geocoding) benötigt."
+msgstr "Wird für Goong-Suchen und Adressauflösung (Geocoding) benötigt."
+
+msgid "Wird zur Geokodierung verwendet, falls Breitengrad/Längengrad leer gelassen werden."
+msgstr "Wird zur Geokodierung verwendet, falls Breitengrad/Längengrad leer gelassen werden."
+
+msgid "Wählen Sie ein Font Awesome Icon für den Karten-Marker aus."
+msgstr "Wählen Sie ein Font Awesome Icon für den Karten-Marker aus."
+
+msgid "Wählen Sie eine CSV-Datei aus. Die Adressen können automatisch im Hintergrund geokodiert werden, falls keine Längen- und Breitengrade vorhanden sind."
+msgstr "Wählen Sie eine CSV-Datei aus. Die Adressen können automatisch im Hintergrund geokodiert werden, falls keine Längen- und Breitengrade vorhanden sind."
+
+msgid "Your license is valid and active. You are receiving all updates and premium map features."
+msgstr "Ihre Lizenz ist gültig und aktiv. Sie erhalten alle Updates und Premium-Kartenfunktionen."
+
+msgid "Zeile übersprungen: Name oder Adresse fehlt."
+msgstr "Zeile übersprungen: Name oder Adresse fehlt."
+
+msgid "Ziehen Sie den Marker oder klicken Sie auf die Karte, um die Koordinaten automatisch zu erfassen."
+msgstr "Ziehen Sie den Marker oder klicken Sie auf die Karte, um die Koordinaten automatisch zu erfassen."
+
+msgid "Zurück zur Übersicht"
+msgstr "Zurück zur Übersicht"
+
+msgid "active"
+msgstr "aktiv"
+
+msgid "oder"
+msgstr "oder"
+
+msgid "Öffnungszeiten"
+msgstr "Öffnungszeiten"
+
+msgid "Übergeordnete Region"
+msgstr "Übergeordnete Region"
+
+msgid "— Keine Region —"
+msgstr "— Keine Region —"
+
+msgid "„In meiner Nähe\" (GPS-Ortung) aktivieren"
+msgstr "„In meiner Nähe\" (GPS-Ortung) aktivieren"
+
+msgid "☕ Buy me a coffee"
+msgstr "☕ Spendieren Sie mir einen Kaffee"
+
+msgid "Within"
+msgstr "Im Umkreis von"

@@ -1,0 +1,1205 @@
+# Copyright (C) 2026 ThangMe
+# This file is distributed under the same license as the LocatorPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LocatorPress 1.0.0\n"
+"Report-Msgid-Bugs-To: http://www.thang.me\n"
+"Last-Translator: ThangMe <support@thang.me>\n"
+"Language-Team: vi <support@thang.me>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: locatorpress\n"
+
+#: includes/providers/class-leaflet-provider.php:26
+msgid "%d / %d Sites"
+msgstr "%d / %d Trang web"
+
+msgid "%d / Unlimited Sites"
+msgstr "%d / Không giới hạn trang web"
+
+msgid "%d Einträge"
+msgstr "%d cửa hàng"
+
+msgid "%d Einträge eingelesen. Starte Stapelverarbeitung..."
+msgstr "Đã đọc %d mục. Đang bắt đầu xử lý theo lô..."
+
+msgid "%s all-time clicks"
+msgstr "%s lượt click từ trước đến nay"
+
+msgid "%s all-time searches"
+msgstr "%s lượt tìm kiếm từ trước đến nay"
+
+msgid "(Erfolgreich geokodiert!)"
+msgstr "(Đã giải mã địa lý thành công!)"
+
+msgid "(Geokodierung fehlgeschlagen!)"
+msgstr "(Giải mã địa lý thất bại!)"
+
+msgid "0 Standorte"
+msgstr "0 địa điểm"
+
+msgid "<strong>LocatorPress Pro</strong> requires the free LocatorPress core plugin to be active. Please install and activate LocatorPress first."
+msgstr "<strong>LocatorPress Pro</strong> yêu cầu plugin miễn phí LocatorPress phải hoạt động. Vui lòng cài đặt và kích hoạt LocatorPress trước."
+
+msgid ">>> Import vollständig beendet!"
+msgstr ">>> Nhập dữ liệu hoàn tất!"
+
+msgid "API Key revoked. Write endpoints are now disabled."
+msgstr "Mã API đã bị thu hồi. Các đầu cuối ghi dữ liệu hiện đã bị vô hiệu hóa."
+
+msgid "API access is disabled. Please generate an API key in the LocatorPress settings."
+msgstr "Quyền truy cập API đã bị tắt. Vui lòng tạo mã khóa API trong cài đặt LocatorPress."
+
+msgid "Abbrechen"
+msgstr "Hủy"
+
+msgid "Achtung: Dies verlängert den Import-Vorgang je nach Anzahl der Standorte, da Adressabfragen durchgeführt werden."
+msgstr "Lưu ý: Quá trình này sẽ kéo dài thời gian nhập tùy thuộc vào số lượng cửa hàng, do phải thực hiện truy vấn địa chỉ."
+
+msgid "Activate"
+msgstr "Kích hoạt"
+
+msgid "Activations"
+msgstr "Số lượt kích hoạt"
+
+msgid "Activity Chart (Last 30 Days)"
+msgstr "Biểu đồ hoạt động (30 ngày qua)"
+
+msgid "Add Location"
+msgstr "Thêm cửa hàng"
+
+msgid "Add Locations"
+msgstr "Thêm nhiều cửa hàng"
+
+msgid "Add New Tag"
+msgstr "Thêm thẻ mới"
+
+msgid "Add Tag"
+msgstr "Thêm thẻ"
+
+msgid "Add Time Range"
+msgstr "Thêm khung giờ"
+
+msgid "Add to All Days"
+msgstr "Thêm vào tất cả các ngày"
+
+msgid "Adresse"
+msgstr "Địa chỉ"
+
+msgid "Adresse (Vollständig) *"
+msgstr "Địa chỉ (Đầy đủ) *"
+
+msgid "Adresse ist leer."
+msgstr "Địa chỉ bị trống."
+
+msgid "Aktiv"
+msgstr "Hoạt động"
+
+msgid "Aktiv (Sichtbar)"
+msgstr "Hoạt động (Hiển thị)"
+
+msgid "All Days"
+msgstr "Tất cả các ngày"
+
+msgid "All Locations"
+msgstr "Tất cả địa điểm"
+
+msgid "All Tags"
+msgstr "Tất cả thẻ"
+
+msgid "All-time: %s%% CTR"
+msgstr "Tổng cộng: %s%% CTR (Tỷ lệ click)"
+
+msgid "Alle Regionen"
+msgstr "Tất cả khu vực"
+
+msgid "Alle Stati"
+msgstr "Tất cả trạng thái"
+
+msgid "Allgemeine Informationen"
+msgstr "Thông tin chung"
+
+msgid "An error occurred during license verification."
+msgstr "Đã xảy ra lỗi trong quá trình xác minh giấy phép."
+
+msgid "Analytics"
+msgstr "Thống kê"
+
+msgid "Anrufen"
+msgstr "Gọi điện"
+
+msgid "Apply"
+msgstr "Áp dụng"
+
+msgid "Are you sure you want to delete this tag?"
+msgstr "Bạn có chắc chắn muốn xóa thẻ này không?"
+
+msgid "Are you sure you want to reset opening hours to default?"
+msgstr "Bạn có chắc chắn muốn đặt lại giờ mở cửa về mặc định không?"
+
+msgid "Attribute"
+msgstr "Thuộc tính"
+
+msgid "Aussehen & Design (Appearance Settings)"
+msgstr "Giao diện & Thiết kế (Appearance Settings)"
+
+msgid "Automatic fallback active"
+msgstr "Chế độ tự động dự phòng đang hoạt động"
+
+msgid "Automatisch (Browsereinstellung)"
+msgstr "Tự động (Thiết lập trình duyệt)"
+
+msgid "Automatische Theme-Farberkennung aktivieren"
+msgstr "Kích hoạt tự động nhận diện màu giao diện"
+
+msgid "Avg. Results"
+msgstr "Kết quả TB"
+
+msgid "Bearbeiten"
+msgstr "Sửa"
+
+msgid "Benutzerdefiniertes Marker-Bild"
+msgstr "Hình ảnh đánh dấu tùy chỉnh"
+
+msgid "Beschreibung"
+msgstr "Mô tả"
+
+msgid "Bild auswählen"
+msgstr "Chọn ảnh"
+
+msgid "Bild entfernen"
+msgstr "Xóa ảnh"
+
+msgid "Bild verwenden"
+msgstr "Sử dụng ảnh"
+
+msgid "Bild wählen"
+msgstr "Chọn ảnh"
+
+msgid "Bitte wählen Sie eine CSV-Datei aus."
+msgstr "Vui lòng chọn một tệp CSV."
+
+msgid "Breitengrad (Latitude)"
+msgstr "Vĩ độ (Latitude)"
+
+msgid "Build a hierarchy like Country → State → City to categorize your locations."
+msgstr "Tạo các cấp bậc khu vực như Quốc gia → Tỉnh/Thành → Quận/Huyện để phân loại cửa hàng."
+
+msgid "Button-Farbe (Button Color)"
+msgstr "Màu nút (Button Color)"
+
+msgid "CSV Import & Export"
+msgstr "Nhập & Xuất CSV"
+
+msgid "CSV herunterladen (.csv)"
+msgstr "Tải xuống CSV (.csv)"
+
+msgid "CSV-Datei auswählen *"
+msgstr "Chọn tệp CSV *"
+
+msgid "CSV-Formatierung"
+msgstr "Định dạng CSV"
+
+msgid "Cache-Dauer der Suchanfragen (in Sekunden)"
+msgstr "Thời gian lưu bộ nhớ cache tìm kiếm (giây)"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Changeable in Settings"
+msgstr "Có thể thay đổi trong phần Cài đặt"
+
+msgid "Clicks"
+msgstr "Lượt click"
+
+msgid "Closed"
+msgstr "Đóng cửa"
+
+msgid "Closed all day"
+msgstr "Đóng cửa cả ngày"
+
+msgid "Conversion Rate (30 Days)"
+msgstr "Tỷ lệ chuyển đổi (30 ngày qua)"
+
+msgid "Copy Hours To…"
+msgstr "Sao chép giờ đến…"
+
+msgid "Copy hours to other days"
+msgstr "Sao chép giờ sang các ngày khác"
+
+msgid "Could not calculate routing directions for this store."
+msgstr "Không thể tính toán chỉ đường cho cửa hàng này."
+
+msgid "Could not connect to the license server."
+msgstr "Không thể kết nối tới máy chủ cấp phép."
+
+msgid "Create Regions"
+msgstr "Tạo khu vực"
+
+msgid "Create and manage tags to organize your store locations."
+msgstr "Tạo và quản lý các thẻ để sắp xếp các địa điểm cửa hàng."
+
+msgid "Creates a new location in the directory."
+msgstr "Tạo một địa điểm mới trong danh mục."
+
+msgid "Customer routing requests"
+msgstr "Yêu cầu chỉ đường của khách hàng"
+
+msgid "Dark Mode (Dunkel)"
+msgstr "Giao diện tối (Dark Mode)"
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+msgid "Database deletion failed."
+msgstr "Xóa dữ liệu trong cơ sở dữ liệu thất bại."
+
+msgid "Database update failed."
+msgstr "Cập nhật cơ sở dữ liệu thất bại."
+
+msgid "Deactivate"
+msgstr "Hủy kích hoạt"
+
+msgid "Default"
+msgstr "Mặc định"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Deletes a location permanently from the database."
+msgstr "Xóa vĩnh viễn địa điểm khỏi cơ sở dữ liệu."
+
+msgid "Der Import ist in der kostenlosen Version auf %d Datensätze beschränkt. Bitte upgraden Sie auf LocatorPress Pro für unbegrenzte Imports."
+msgstr "Phiên bản miễn phí chỉ cho phép nhập tối đa %d bản ghi. Vui lòng nâng cấp lên LocatorPress Pro để nhập không giới hạn."
+
+msgid "Details"
+msgstr "Chi tiết"
+
+msgid "Developer API References"
+msgstr "Tài liệu tham khảo API nhà phát triển"
+
+msgid "Dezimalzahlen (optional)"
+msgstr "Số thập phân (tùy chọn)"
+
+msgid "Die CSV-Datei enthält keine nutzbaren Daten."
+msgstr "Tệp CSV không chứa dữ liệu khả dụng."
+
+msgid "Die CSV-Datei muss UTF-8-kodiert sein und ein Semikolon (;) oder Komma (,) als Trennzeichen verwenden."
+msgstr "Tệp CSV phải được mã hóa UTF-8 và sử dụng dấu chấm phẩy (;) hoặc dấu phẩy (,) làm dấu phân cách."
+
+msgid "Die URL-taugliche Variante des Namens. Standardmäßig automatisch generiert."
+msgstr "Đường dẫn thân thiện (slug) của tên. Mặc định tự động tạo."
+
+msgid "Die erste Zeile muss genau folgende Spaltenüberschriften enthalten:"
+msgstr "Dòng đầu tiên phải chứa chính xác các tiêu đề cột sau:"
+
+msgid "Dienst zur Adressauflösung beim Importieren oder Speichern von Standorten."
+msgstr "Dịch vụ phân tích địa chỉ khi nhập hoặc lưu cửa hàng."
+
+msgid "Dienstag"
+msgstr "Thứ Ba"
+
+msgid "Directions (30 Days)"
+msgstr "Chỉ đường (30 ngày qua)"
+
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+msgid "Donate"
+msgstr "Quyên góp"
+
+msgid "Donate via PayPal"
+msgstr "Quyên góp qua PayPal"
+
+msgid "Donnerstag"
+msgstr "Thứ Năm"
+
+msgid "Drag to reorder"
+msgstr "Kéo để sắp xếp lại"
+
+msgid "Dunkel (Dark Mode)"
+msgstr "Tối (Dark Mode)"
+
+msgid "E-Mail"
+msgstr "Email"
+
+msgid "E-Mail senden"
+msgstr "Gửi Email"
+
+msgid "E-Mail-Adresse"
+msgstr "Địa chỉ Email"
+
+msgid "Eckenabrundung (Border Radius)"
+msgstr "Bo góc (Border Radius)"
+
+msgid "Edit"
+msgstr "Sửa"
+
+msgid "Edit Tag"
+msgstr "Sửa thẻ"
+
+msgid "Eigenes Bild/Icon hochladen"
+msgstr "Tải lên ảnh/icon riêng"
+
+msgid "Einstellungen"
+msgstr "Cấu hình"
+
+msgid "Einstellungen erfolgreich gespeichert."
+msgstr "Cấu hình đã được lưu thành công."
+
+msgid "Einstellungen speichern"
+msgstr "Lưu cấu hình"
+
+msgid "Embed on Your Site"
+msgstr "Nhúng vào trang web của bạn"
+
+msgid "Embed the store locator anywhere:"
+msgstr "Nhúng bản đồ cửa hàng vào bất kỳ đâu:"
+
+msgid "Enabled & Active"
+msgstr "Đang bật & Hoạt động"
+
+msgid "Enjoy LocatorPress for free?"
+msgstr "Bạn thích sử dụng LocatorPress miễn phí chứ?"
+
+msgid "Enter your stores with address, contact info, opening hours and images — or import them via CSV."
+msgstr "Nhập các cửa hàng của bạn với địa chỉ, thông tin liên hệ, giờ mở cửa và hình ảnh — hoặc nhập từ tệp CSV."
+
+msgid "Entfernungs-Maßeinheit"
+msgstr "Đơn vị khoảng cách"
+
+msgid "Erfassen Sie alle Adress- und Kontaktdaten für diesen Shop."
+msgstr "Nhập tất cả địa chỉ và thông tin liên hệ cho cửa hàng này."
+
+msgid "Erfolgreich abgeschlossen!"
+msgstr "Hoàn thành thành công!"
+
+msgid "Erforderlich für das Laden der Goong-Kartenkacheln."
+msgstr "Yêu cầu để tải bản đồ Goong."
+
+msgid "Erforderlich, falls Google Maps als Kartenanbieter oder Geocoding-Dienst ausgewählt ist."
+msgstr "Yêu cầu nếu chọn Google Maps làm nhà cung cấp bản đồ hoặc dịch vụ địa mã hóa."
+
+msgid "Erkennt automatisch die primäre Farbe Ihres aktiven WordPress-Themes und wendet sie auf den Store Locator an."
+msgstr "Tự động nhận diện màu chủ đạo của giao diện WordPress đang dùng và áp dụng vào Store Locator."
+
+msgid "Ermöglicht es Frontend-Besuchern, ihren aktuellen Standort per GPS abzurufen, um nahegelegene Standorte zu suchen."
+msgstr "Cho phép khách truy cập lấy vị trí hiện tại bằng GPS để tìm kiếm các cửa hàng gần nhất."
+
+msgid "Ermöglicht es Ihnen, die Anzeigesprache für Frontend und Backend festzulegen. Standardmäßig wird die aktive WordPress-Sprachumgebung automatisch erkannt."
+msgstr "Cho phép thiết lập ngôn ngữ hiển thị cho cả Frontend và Backend. Mặc định hệ thống tự nhận diện ngôn ngữ của WordPress."
+
+msgid "Erstellen Sie eine hierarchische Gliederung (z. B. Land -> Bundesland -> Stadt) zur Organisation Ihrer Standorte."
+msgstr "Tạo phân cấp khu vực (ví dụ: Quốc gia -> Tỉnh/Thành -> Quận/Huyện) để quản lý cửa hàng."
+
+msgid "Expired"
+msgstr "Đã hết hạn"
+
+msgid "Expiry Date"
+msgstr "Ngày hết hạn"
+
+msgid "Exportieren Sie alle eingetragenen Standorte in eine strukturierte CSV-Datei."
+msgstr "Xuất tất cả cửa hàng đã lưu ra tệp tin CSV cấu trúc."
+
+msgid "Failed to fetch routing from Goong API."
+msgstr "Không lấy được chỉ đường từ Goong API."
+
+msgid "Failed to save location to database."
+msgstr "Lưu địa điểm vào cơ sở dữ liệu thất bại."
+
+msgid "Farbschema (Light / Dark Mode)"
+msgstr "Chế độ màu (Sáng / Tối)"
+
+msgid "Fasst nahe beieinander liegende Standorte bei niedrigen Zoomstufen zu Clustern zusammen."
+msgstr "Gộp các cửa hàng gần nhau thành nhóm (cluster) khi ở tỉ lệ thu nhỏ."
+
+msgid "Fehlende Geokoordinaten automatisch ermitteln"
+msgstr "Tự động tìm kiếm tọa độ địa lý còn thiếu"
+
+msgid "Fehler beim Speichern von: %s"
+msgstr "Lỗi khi lưu: %s"
+
+msgid "Fehler im Stapel:"
+msgstr "Lỗi trong lô xử lý:"
+
+msgid "Filter by tag"
+msgstr "Lọc theo thẻ"
+
+msgid "Filtern"
+msgstr "Lọc"
+
+msgid "Font Awesome Icon (Standard)"
+msgstr "Biểu tượng Font Awesome (Mặc định)"
+
+msgid "Font Awesome Icon auswählen"
+msgstr "Chọn biểu tượng Font Awesome"
+
+msgid "Freitag"
+msgstr "Thứ Sáu"
+
+msgid "Genaue Postanschrift (erforderlich)"
+msgstr "Địa chỉ bưu chính chính xác (yêu cầu)"
+
+msgid "Generate Key"
+msgstr "Tạo mã"
+
+msgid "Generate REST API keys to perform secure write operations (Create, Update, Delete) on your locations database from third-party apps."
+msgstr "Tạo mã API REST để thực hiện các thao tác ghi dữ liệu bảo mật (Tạo, Cập nhật, Xóa) trên cơ sở dữ liệu địa điểm của bạn từ các ứng dụng bên thứ ba."
+
+msgid "Geocoding Service"
+msgstr "Dịch vụ địa mã hóa (Geocoding)"
+
+msgid "Geocoding-Dienst"
+msgstr "Dịch vụ địa mã hóa (Geocoding)"
+
+msgid "Geokodierung fehlgeschlagen."
+msgstr "Giải mã địa lý thất bại."
+
+msgid "Geokodierung fehlgeschlagen. Bitte Breitengrad/Längengrad manuell eingeben."
+msgstr "Giải mã địa lý thất bại. Vui lòng nhập vĩ độ/kinh độ thủ công."
+
+msgid "Geokoordinaten"
+msgstr "Tọa độ địa lý"
+
+msgid "Gesamtes Gebiet"
+msgstr "Toàn bộ khu vực"
+
+msgid "Geschlossen"
+msgstr "Đóng cửa"
+
+msgid "Geschlossen (Öffnet um %s)"
+msgstr "Đóng cửa (Mở lúc %s)"
+
+msgid "Get Coordinates"
+msgstr "Lấy tọa độ"
+
+msgid "Getting Started"
+msgstr "Bắt đầu"
+
+msgid "Geöffnet"
+msgstr "Đang mở cửa"
+
+msgid "Geöffnet bis %s"
+msgstr "Mở cửa đến %s"
+
+msgid "Google Geocoding API"
+msgstr "Google Geocoding API"
+
+msgid "Google Maps"
+msgstr "Google Maps"
+
+msgid "Google Maps API-Key"
+msgstr "Khóa Google Maps API"
+
+msgid "Google Maps Platform Integration"
+msgstr "Tích hợp Google Maps Platform"
+
+msgid "Goong API Key is not configured."
+msgstr "Mã API Goong chưa được cấu hình."
+
+msgid "Goong Geocoding API (Viet Nam)"
+msgstr "Goong Geocoding API (Việt Nam)"
+
+msgid "Goong Geocoding API-Key"
+msgstr "Khóa Goong Geocoding API"
+
+msgid "Goong Maps (Optimiert für Vietnam)"
+msgstr "Goong Maps (Tối ưu hóa cho Việt Nam)"
+
+msgid "Goong Maps (Viet Nam)"
+msgstr "Bản đồ Goong (Việt Nam)"
+
+msgid "Goong Maps Integration (optimized for Vietnam)"
+msgstr "Tích hợp Bản đồ Goong (Tối ưu hóa cho Việt Nam)"
+
+msgid "Goong Maps Map Token (Key)"
+msgstr "Khóa Goong Maps Map Token"
+
+msgid "Hell (Light Mode)"
+msgstr "Sáng (Light Mode)"
+
+msgid "Hier sehen Sie alle eingetragenen Filialen und Geschäfte Ihres Locators."
+msgstr "Dưới đây hiển thị tất cả các chi nhánh và cửa hàng đã đăng ký."
+
+msgid "Hierarchical categories"
+msgstr "Phân cấp khu vực"
+
+msgid "Icon suchen..."
+msgstr "Tìm kiếm biểu tượng..."
+
+msgid "Icon ändern"
+msgstr "Thay đổi biểu tượng"
+
+msgid "Icon/Kontur-Farbe"
+msgstr "Màu biểu tượng/viền"
+
+msgid "If this plugin saves you time or money, a small donation helps keep it actively maintained and ad-free."
+msgstr "Nếu plugin này giúp bạn tiết kiệm thời gian hoặc tiền bạc, một khoản quyên góp nhỏ sẽ giúp duy trì và giữ nó không có quảng cáo."
+
+msgid "Ihr Standort wurde gefunden."
+msgstr "Đã xác định vị trí của bạn."
+
+msgid "Import / Export"
+msgstr "Nhập / Xuất"
+
+msgid "Import starten"
+msgstr "Bắt đầu nhập"
+
+msgid "Importfortschritt"
+msgstr "Tiến trình nhập"
+
+msgid "Importieren Sie Hunderte von Standorten auf einmal oder exportieren Sie Ihre bestehende Datenbank."
+msgstr "Nhập hàng trăm cửa hàng cùng lúc hoặc xuất cơ sở dữ liệu hiện tại của bạn."
+
+msgid "Importiert: %s%s"
+msgstr "Đã nhập: %s%s"
+
+msgid "Inaktiv"
+msgstr "Ngừng hoạt động"
+
+msgid "Inaktiv (Ausgeblendet)"
+msgstr "Ngừng hoạt động (Ẩn)"
+
+msgid "Interactions (30 Days)"
+msgstr "Tương tác (30 ngày qua)"
+
+msgid "Invalid API Key."
+msgstr "Mã API không hợp lệ."
+
+msgid "Invalid nonce."
+msgstr "Mã bảo mật nonce không hợp lệ."
+
+msgid "Invalid response from license server."
+msgstr "Phản hồi không hợp lệ từ máy chủ cấp phép."
+
+msgid "Karten-Schattenwurf (Card Shadow)"
+msgstr "Bóng đổ thẻ (Card Shadow)"
+
+msgid "Kartenanbieter & APIs"
+msgstr "Nhà cung cấp bản đồ & API"
+
+msgid "Kartendesign (Map Style)"
+msgstr "Kiểu thiết kế bản đồ (Map Style)"
+
+msgid "Kartenverhalten & Standardwerte"
+msgstr "Hành vi bản đồ & Giá trị mặc định"
+
+msgid "Keep this key secret. Include it in your requests in the custom HTTP Header: X-LocatorPress-Key"
+msgstr "Giữ bí mật mã khóa này. Thêm vào các yêu cầu trong Custom HTTP Header: X-LocatorPress-Key"
+
+msgid "Keine (Oberste Ebene)"
+msgstr "Không (Cấp cao nhất)"
+
+msgid "Keine Berechtigung."
+msgstr "Không có quyền thực hiện."
+
+msgid "Keine Daten empfangen."
+msgstr "Không nhận được dữ liệu."
+
+msgid "Keine Einträge zum Importieren gefunden."
+msgstr "Không tìm thấy mục nào để nhập."
+
+msgid "Keine Regionen angelegt."
+msgstr "Không có khu vực nào được tạo."
+
+msgid "Keine Standorte gefunden."
+msgstr "Không tìm thấy cửa hàng nào."
+
+msgid "Keine Standorte in diesem Radius gefunden."
+msgstr "Không tìm thấy cửa hàng nào trong bán kính này."
+
+msgid "Keine ausreichenden Berechtigungen."
+msgstr "Quyền hạn không đủ."
+
+msgid "Kilometer (Km)"
+msgstr "Kilômét (Km)"
+
+msgid "Konfigurieren Sie Kartenanbieter, API-Schlüssel und das Verhalten des Store Locators."
+msgstr "Cấu hình nhà cung cấp bản đồ, khóa API và hành vi của Store Locator."
+
+msgid "Kontakt & Details"
+msgstr "Liên hệ & Chi tiết"
+
+msgid "Leaflet (OpenStreetMap - Keine API benötigt)"
+msgstr "Leaflet (OpenStreetMap - Không yêu cầu API)"
+
+msgid "Leaflet (OpenStreetMap - Kostenlos)"
+msgstr "Leaflet (OpenStreetMap - Miễn phí)"
+
+msgid "Leaflet benötigt keinen API-Schlüssel und ist standardmäßig aktiv."
+msgstr "Leaflet không yêu cầu khóa API và được kích hoạt theo mặc định."
+
+msgid "Leave a Review"
+msgstr "Viết đánh giá"
+
+msgid "Lese CSV-Datei..."
+msgstr "Đang đọc tệp CSV..."
+
+msgid "License Key"
+msgstr "Mã bản quyền"
+
+msgid "License Required"
+msgstr "Yêu cầu bản quyền"
+
+msgid "License Type"
+msgstr "Loại bản quyền"
+
+msgid "License activated successfully!"
+msgstr "Kích hoạt bản quyền thành công!"
+
+msgid "License deactivated successfully!"
+msgstr "Hủy kích hoạt bản quyền thành công!"
+
+msgid "License key is empty."
+msgstr "Mã bản quyền đang trống."
+
+msgid "License key saved."
+msgstr "Đã lưu mã bản quyền."
+
+msgid "License verification failed."
+msgstr "Xác minh bản quyền thất bại."
+
+msgid "Lifetime"
+msgstr "Trọn đời"
+
+msgid "Lifetime Automated Updates & support"
+msgstr "Cập nhật tự động trọn đời & hỗ trợ"
+
+msgid "Location"
+msgstr "Cửa hàng"
+
+msgid "Location created successfully."
+msgstr "Đã tạo địa điểm thành công."
+
+msgid "Location deleted successfully."
+msgstr "Đã xóa địa điểm thành công."
+
+msgid "Location not found."
+msgstr "Không tìm thấy địa điểm."
+
+msgid "Location updated successfully."
+msgstr "Cập nhật địa điểm thành công."
+
+msgid "LocatorPress API Authorization Key"
+msgstr "Mã xác thực API LocatorPress"
+
+msgid "LocatorPress Dashboard"
+msgstr "Bảng điều khiển LocatorPress"
+
+msgid "LocatorPress Einstellungen"
+msgstr "Cấu hình LocatorPress"
+
+msgid "LocatorPress Pro License"
+msgstr "Bản quyền LocatorPress Pro"
+
+msgid "LocatorPress is free and open source. If it helps your project, please consider leaving a 5-star review or making a small donation."
+msgstr "LocatorPress là phần mềm miễn phí và nguồn mở. Nếu nó hữu ích, vui lòng cân nhắc đánh giá 5 sao hoặc quyên góp một chút."
+
+msgid "LocatorPress lets you display stores, branches, or any locations on beautiful interactive maps. Follow these steps to get started:"
+msgstr "LocatorPress cho phép bạn hiển thị các cửa hàng, chi nhánh hoặc bất kỳ địa điểm nào trên bản đồ tương tác đẹp mắt. Hãy làm theo các bước sau để bắt đầu:"
+
+msgid "Lokalisierung & Sprachen"
+msgstr "Bản địa hóa & Ngôn ngữ"
+
+msgid "Längengrad (Longitude)"
+msgstr "Kinh độ (Longitude)"
+
+msgid "Löschen"
+msgstr "Xóa"
+
+msgid "Manage Regions"
+msgstr "Quản lý khu vực"
+
+msgid "Manage Store Tags"
+msgstr "Quản lý thẻ cửa hàng"
+
+msgid "Manage your license settings, view validation status, and unlock automated updates."
+msgstr "Quản lý cài đặt bản quyền của bạn, xem trạng thái xác thực và mở khóa tính năng tự động cập nhật."
+
+msgid "Map Provider"
+msgstr "Nhà cung cấp bản đồ"
+
+msgid "Marker-Clustering aktivieren"
+msgstr "Kích hoạt nhóm biểu tượng (Clustering)"
+
+msgid "Marker-Typ"
+msgstr "Loại biểu tượng đánh dấu"
+
+msgid "Meilen (Miles)"
+msgstr "Dặm (Miles)"
+
+msgid "Meinen Standort ermitteln"
+msgstr "Xác định vị trí của tôi"
+
+msgid "Missing origin or destination coordinates."
+msgstr "Thiếu tọa độ điểm xuất phát hoặc điểm đến."
+
+msgid "Missing required fields: title, address"
+msgstr "Thiếu các trường bắt buộc: tiêu đề, địa chỉ"
+
+msgid "Mittwoch"
+msgstr "Thứ Tư"
+
+msgid "Monitor locator activity, queries, customer interactions, and conversion rates."
+msgstr "Theo dõi hoạt động của bản đồ, truy vấn, tương tác của khách hàng và tỷ lệ chuyển đổi."
+
+msgid "Montag"
+msgstr "Thứ Hai"
+
+msgid "Most Interactive Locations"
+msgstr "Địa điểm được tương tác nhiều nhất"
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Name der Region *"
+msgstr "Tên khu vực *"
+
+msgid "Name des Standortes (erforderlich)"
+msgstr "Tên cửa hàng (yêu cầu)"
+
+msgid "Name des Standortes *"
+msgstr "Tên cửa hàng *"
+
+msgid "Near Me (GPS)"
+msgstr "Gần tôi (GPS)"
+
+msgid "Netzwerk- oder Serverfehler bei der Stapelverarbeitung."
+msgstr "Lỗi mạng hoặc máy chủ khi xử lý theo lô."
+
+msgid "Neue Region hinzufügen"
+msgstr "Thêm khu vực mới"
+
+msgid "Neuen Standort hinzufügen"
+msgstr "Thêm cửa hàng mới"
+
+msgid "New API Key generated successfully!"
+msgstr "Đã tạo mã API mới thành công!"
+
+msgid "No active API Key. Generate one below."
+msgstr "Không có mã API hoạt động. Hãy tạo mã bên dưới."
+
+msgid "No clicks tracked yet."
+msgstr "Chưa có lượt click nào được ghi nhận."
+
+msgid "No fields to update."
+msgstr "Không có trường nào để cập nhật."
+
+msgid "No permission."
+msgstr "Không có quyền truy cập."
+
+msgid "No searches tracked yet."
+msgstr "Chưa có lượt tìm kiếm nào được ghi nhận."
+
+msgid "No tags created yet. <a href=\"%s\" target=\"_blank\">Manage Tags</a>"
+msgstr "Chưa có thẻ nào được tạo. <a href=\"%s\" target=\"_blank\">Quản lý thẻ</a>"
+
+msgid "No tags found."
+msgstr "Không tìm thấy thẻ nào."
+
+msgid "None"
+msgstr "Không có"
+
+msgid "Numerische ID der Region (optional)"
+msgstr "ID số của khu vực (tùy chọn)"
+
+msgid "Open"
+msgstr "Mở cửa"
+
+msgid "Open Now"
+msgstr "Đang mở cửa"
+
+msgid "Open all day"
+msgstr "Mở cửa cả ngày"
+
+msgid "OpenStreetMap Nominatim (Kostenlos)"
+msgstr "OpenStreetMap Nominatim (Miễn phí)"
+
+msgid "Opening Hours"
+msgstr "Giờ mở cửa"
+
+msgid "Optional Attributes:"
+msgstr "Thuộc tính tùy chọn:"
+
+msgid "PLZ, Stadt oder Name eingeben..."
+msgstr "Nhập mã bưu điện, thành phố hoặc tên..."
+
+msgid "Performance & Features"
+msgstr "Hiệu suất & Tính năng"
+
+msgid "Pin Hintergrund"
+msgstr "Nền ghim (Pin Background)"
+
+msgid "Please enable location services or search for a location first to calculate routes."
+msgstr "Vui lòng bật dịch vụ vị trí hoặc tìm kiếm một địa điểm trước để tính toán tuyến đường."
+
+msgid "Please enter a valid license key."
+msgstr "Vui lòng nhập mã khóa bản quyền hợp lệ."
+
+msgid "Please enter your license key to activate Google Maps, Goong Maps, and unlimited CSV imports."
+msgstr "Vui lòng nhập mã khóa bản quyền để kích hoạt Google Maps, Goong Maps và số lượng nhập CSV không giới hạn."
+
+msgid "Popular Search Queries"
+msgstr "Các từ khóa tìm kiếm phổ biến"
+
+msgid "Primärfarbe (Primary Color)"
+msgstr "Màu chính (Primary Color)"
+
+msgid "Pro Features Active"
+msgstr "Các tính năng Pro đang hoạt động"
+
+msgid "REST API"
+msgstr "REST API"
+
+msgid "REST API Keys"
+msgstr "Mã REST API"
+
+msgid "REST API Webhooks & Keys"
+msgstr "REST API Webhooks & Keys"
+
+msgid "Region"
+msgstr "Khu vực"
+
+msgid "Region aktualisieren"
+msgstr "Cập nhật khu vực"
+
+msgid "Region anlegen"
+msgstr "Tạo khu vực"
+
+msgid "Region bearbeiten"
+msgstr "Sửa khu vực"
+
+msgid "Region erfolgreich aktualisiert."
+msgstr "Khu vực đã được cập nhật thành công."
+
+msgid "Region erfolgreich angelegt."
+msgstr "Khu vực đã được tạo thành công."
+
+msgid "Region erfolgreich gelöscht."
+msgstr "Khu vực đã được xóa thành công."
+
+msgid "Region filtern"
+msgstr "Lọc theo khu vực"
+
+msgid "Region nicht gefunden."
+msgstr "Không tìm thấy khu vực."
+
+msgid "Regionen"
+msgstr "Khu vực"
+
+msgid "Regionen verwalten"
+msgstr "Quản lý khu vực"
+
+msgid "Regions"
+msgstr "Khu vực"
+
+msgid "Remove time range"
+msgstr "Xóa khung giờ"
+
+msgid "Reset to Default"
+msgstr "Đặt lại mặc định"
+
+msgid "Retro"
+msgstr "Cổ điển (Retro)"
+
+msgid "Revoke Key"
+msgstr "Thu hồi mã"
+
+msgid "Routenplaner"
+msgstr "Chỉ đường"
+
+msgid "Routing"
+msgstr "Đường đi"
+
+msgid "Samstag"
+msgstr "Thứ Bảy"
+
+msgid "Search & Click Analytics"
+msgstr "Thống kê tìm kiếm & click"
+
+msgid "Search Analytics"
+msgstr "Thống kê tìm kiếm"
+
+msgid "Search Analytics and Click Analytics tracker"
+msgstr "Bộ theo dõi thống kê tìm kiếm & click"
+
+msgid "Search Query"
+msgstr "Từ khóa tìm kiếm"
+
+msgid "Searches"
+msgstr "Tìm kiếm"
+
+msgid "Searches (30 Days)"
+msgstr "Tìm kiếm (30 ngày qua)"
+
+msgid "Sekundärfarbe (Secondary Color)"
+msgstr "Màu phụ (Secondary Color)"
+
+msgid "Select the days you want to copy these hours to:"
+msgstr "Chọn các ngày bạn muốn sao chép giờ đến:"
+
+msgid "Set your business hours for each day of the week."
+msgstr "Thiết lập giờ làm việc của bạn cho từng ngày trong tuần."
+
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgid "Shortcode Reference"
+msgstr "Hướng dẫn Shortcode"
+
+msgid "Sie haben keine Berechtigung für diese Aktion."
+msgstr "Bạn không có quyền thực hiện hành động này."
+
+msgid "Silber"
+msgstr "Bạc (Silver)"
+
+msgid "Sind Sie sicher?"
+msgstr "Bạn có chắc chắn không?"
+
+msgid "Sind Sie sicher? Alle Unterregionen werden nach oben verschoben und die zugewiesenen Standorte werden unkategorisiert."
+msgstr "Bạn có chắc chắn không? Tất cả các khu vực con sẽ được chuyển lên cấp trên và các cửa hàng gán trực tiếp sẽ tạm thời chưa được phân nhóm."
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Slug (URL-freundlich)"
+msgstr "Slug (thân thiện với URL)"
+
+msgid "Sonntag"
+msgstr "Chủ Nhật"
+
+msgid "Sprache manuell erzwingen"
+msgstr "Chọn ngôn ngữ thủ công"
+
+msgid "Standard"
+msgstr "Mặc định"
+
+msgid "Standard (WordPress Spracherkennung)"
+msgstr "Mặc định (Tự nhận diện WordPress)"
+
+msgid "Standard-Breitengrad (Lat)"
+msgstr "Vĩ độ mặc định (Lat)"
+
+msgid "Standard-Kartenanbieter"
+msgstr "Nhà cung cấp bản đồ mặc định"
+
+msgid "Standard-Längengrad (Lng)"
+msgstr "Kinh độ mặc định (Lng)"
+
+msgid "Standard-Zoomstufe"
+msgstr "Tỉ lệ phóng to mặc định"
+
+msgid "Standort auf Karte festlegen"
+msgstr "Định vị cửa hàng trên bản đồ"
+
+msgid "Standort bearbeiten"
+msgstr "Sửa cửa hàng"
+
+msgid "Standort erfolgreich aktualisiert."
+msgstr "Cửa hàng được cập nhật thành công."
+
+msgid "Standort erfolgreich angelegt."
+msgstr "Cửa hàng được tạo thành công."
+
+msgid "Standort erfolgreich gelöscht."
+msgstr "Cửa hàng được xóa thành công."
+
+msgid "Standort gefunden"
+msgstr "Địa điểm tìm thấy"
+
+msgid "Standort nicht gefunden."
+msgstr "Không tìm thấy cửa hàng."
+
+msgid "Standort speichern"
+msgstr "Lưu cửa hàng"
+
+msgid "Standortbestimmung fehlgeschlagen."
+msgstr "Xác định vị trí thất bại."
+
+msgid "Standortbild"
+msgstr "Hình ảnh cửa hàng"
+
+msgid "Standorte"
+msgstr "Cửa hàng"
+
+msgid "Standorte aus CSV importieren"
+msgstr "Nhập danh sách cửa hàng từ CSV"
+
+msgid "Standorte exportieren"
+msgstr "Xuất danh sách cửa hàng"
+
+msgid "Standorte gefunden"
+msgstr "Địa điểm tìm thấy"
+
+msgid "Standorte suchen:"
+msgstr "Tìm kiếm cửa hàng:"
+
+msgid "Standorte verwalten"
+msgstr "Quản lý cửa hàng"
+
+msgid "Starte Importvorgang..."
+msgstr "Đang bắt đầu nhập dữ liệu..."
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Store Location"
+msgstr "Địa điểm cửa hàng"
+
+msgid "Store Manager"
+msgstr "Quản lý cửa hàng"
+
+msgid "Store Tags & Advanced Category Filtering"
+msgstr "Thẻ cửa hàng & Bộ lọc danh mục nâng cao"
+
+msgid "Suche"
+msgstr "Tìm kiếm"
+
+msgid "Suche starten..."
+msgstr "Bắt đầu tìm kiếm..."
+
+msgid "Suchen"
+msgstr "Tìm kiếm"
+
+msgid "Support This Plugin"
+msgstr "Hỗ trợ Plugin này"
+
+msgid "Tag Name *"
+msgstr "Tên thẻ *"
+
+msgid "Tag created successfully."
+msgstr "Tạo thẻ thành công."
+
+msgid "Tag deleted successfully."
+msgstr "Xóa thẻ thành công."
+
+msgid "Tag updated successfully."
+msgstr "Cập nhật thẻ thành công."
+
+msgid "Tags"
+msgstr "Thẻ"
+
+msgid "Telefonnummer"
+msgstr "Số điện thoại"
+
+msgid "Textfarbe (Text Color)"
+msgstr "Màu chữ (Text Color)"
+
+msgid "Tip: Use \"Add to All Days\" to quickly set the same hours across multiple days."
+msgstr "Mẹo: Sử dụng \"Thêm vào tất cả các ngày\" để thiết lập nhanh giờ mở cửa giống nhau."
+
+msgid "Toggle time slots"
+msgstr "Ẩn/Hiện khung giờ"
+
+msgid "Total Clicks"
+msgstr "Tổng lượt click"
+
+msgid "Total Locations"
+msgstr "Tổng số cửa hàng"
+
+msgid "Umkreis"
+msgstr "Bán kính"
+
+msgid "Ungültiger Nonce-Sicherheitsschlüssel."
+msgstr "Mã bảo mật Nonce không hợp lệ."
+
+msgid "Unlimited CSV Import & Export records"
+msgstr "Không giới hạn số dòng Nhập & Xuất tệp CSV"
+
+msgid "Unlocks Premium Features:"
+msgstr "Mở khóa các tính năng Premium:"
+
+msgid "Update Tag"
+msgstr "Cập nhật thẻ"
+
+msgid "Updates & Support"
+msgstr "Cập nhật & Hỗ trợ"
+
+msgid "Updates an existing location by its database ID."
+msgstr "Cập nhật một địa điểm hiện có bằng ID cơ sở dữ liệu."
+
+msgid "Use the shortcode [locatorpress] on any page, Gutenberg block, or Elementor widget."
+msgstr "Sử dụng shortcode [locatorpress] trên bất kỳ trang nào, khối Gutenberg hoặc widget Elementor."
+
+msgid "Verarbeite Zeilen %s bis %s von %s..."
+msgstr "Đang xử lý dòng %s đến %s trong tổng số %s..."
+
+msgid "Verhindert wiederholte schwere Datenbankabfragen bei identischen Suchanfragen. Setzen Sie 0, um den Cache zu deaktivieren."
+msgstr "Tránh lặp lại các truy vấn cơ sở dữ liệu lớn đối với các tìm kiếm trùng nhau. Đặt 0 để tắt lưu bộ nhớ cache."
+
+msgid "Veröffentlichung"
+msgstr "Đăng tải"
+
+msgid "Visit %1$s at %2$s. Find business hours, contact info, and directions."
+msgstr "Ghé thăm %1$s tại %2$s. Tìm thông tin giờ mở cửa, liên hệ và chỉ đường."
+
+msgid "Vorschau"
+msgstr "Xem trước"
+
+msgid "Website"
+msgstr "Trang web"
+
+msgid "Website besuchen"
+msgstr "Ghé thăm Website"
+
+msgid "Website-URL"
+msgstr "Địa chỉ Website"
+
+msgid "Weekdays Only (Mon–Fri)"
+msgstr "Chỉ ngày thường (T2–T6)"
+
+msgid "Weekends Only (Sat–Sun)"
+msgstr "Chỉ cuối tuần (T7–CN)"
+
+msgid "Welcome to your Store Locator control panel."
+msgstr "Chào mừng đến với trang quản trị bản đồ cửa hàng."
+
+msgid "Wird für Goong-Suchen und Adressauflösung (Geocoding) benötigt."
+msgstr "Yêu cầu để tìm kiếm và định vị vị trí bản đồ Goong."
+
+msgid "Wird zur Geokodierung verwendet, falls Breitengrad/Längengrad leer gelassen werden."
+msgstr "Sử dụng để định vị địa lý nếu vĩ độ và kinh độ được để trống."
+
+msgid "Wählen Sie ein Font Awesome Icon für den Karten-Marker aus."
+msgstr "Chọn một biểu tượng Font Awesome cho điểm đánh dấu trên bản đồ."
+
+msgid "Wählen Sie eine CSV-Datei aus. Die Adressen können automatisch im Hintergrund geokodiert werden, falls keine Längen- und Breitengrade vorhanden sind."
+msgstr "Chọn tệp tin CSV. Địa chỉ có thể được tự động giải mã địa lý dưới nền nếu chưa có sẵn kinh độ và vĩ độ."
+
+msgid "Your license is valid and active. You are receiving all updates and premium map features."
+msgstr "Giấy phép của bạn hợp lệ và đang hoạt động. Bạn đang nhận được tất cả các bản cập nhật và tính năng bản đồ cao cấp."
+
+msgid "Zeile übersprungen: Name oder Adresse fehlt."
+msgstr "Bỏ qua dòng: Thiếu Tên hoặc Địa chỉ."
+
+msgid "Ziehen Sie den Marker oder klicken Sie auf die Karte, um die Koordinaten automatisch zu erfassen."
+msgstr "Kéo biểu tượng đánh dấu hoặc click trực tiếp trên bản đồ để tự động lấy tọa độ."
+
+msgid "Zurück zur Übersicht"
+msgstr "Quay lại danh sách"
+
+msgid "active"
+msgstr "hoạt động"
+
+msgid "oder"
+msgstr "hoặc"
+
+msgid "Öffnungszeiten"
+msgstr "Giờ mở cửa"
+
+msgid "Übergeordnete Region"
+msgstr "Khu vực cha"
+
+msgid "— Keine Region —"
+msgstr "— Không chọn khu vực —"
+
+msgid "„In meiner Nähe\" (GPS-Ortung) aktivieren"
+msgstr "Kích hoạt \\\"Gần tôi\\\" (Định vị GPS)"
+
+msgid "☕ Buy me a coffee"
+msgstr "☕ Mua cho tôi một tách cà phê"
+
+msgid "Within"
+msgstr "Trong vòng"

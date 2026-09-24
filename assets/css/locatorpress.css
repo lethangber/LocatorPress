@@ -1,0 +1,1240 @@
+/**
+ * LocatorPress Frontend CSS
+ * 
+ * BEM-Architektur (.lp-).
+ * Vollständig responsive, modern, geschmeidig und kompatibel mit allen Themes und Page-Buildern (Elementor etc.).
+ * Alle Kommentare sind auf Deutsch verfasst, um den Vorgaben zu entsprechen.
+ */
+
+:root {
+	/* Standard-Farbpalette (wird durch das Theme-Color-System dynamisch im Wrapper überschrieben) */
+	--lp-primary: #2563eb;
+	--lp-primary-rgb: 37, 99, 235;
+	--lp-secondary: #f1f5f9;
+	--lp-text-dark: #0f172a;
+	--lp-text-light: #64748b;
+	--lp-border-color: #e2e8f0;
+	--lp-bg-white: #ffffff;
+	--lp-bg-sidebar: #f8fafc;
+	--lp-success: #10b981;
+	--lp-danger: #ef4444;
+	
+	/* Schatten- und Elevation-System für Premium SaaS-Look */
+	--lp-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	--lp-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+	--lp-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+	--lp-shadow-premium: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+	
+	/* Radien und Übergänge */
+	--lp-radius-sm: 6px;
+	--lp-radius-md: 10px;
+	--lp-radius-lg: 16px;
+	--lp-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Haupt-Container */
+.lp-container {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: var(--lp-text-dark);
+	background: var(--lp-bg-white);
+	border: 1px solid var(--lp-border-color);
+	border-radius: var(--lp-radius-lg);
+	box-shadow: var(--lp-shadow-lg);
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.lp-container * {
+	box-sizing: border-box;
+}
+
+/* 1. SUCHLEISTE (SEARCH BAR) */
+.lp-search-bar {
+	display: flex;
+	padding: 24px;
+	background: var(--lp-bg-white);
+	border-bottom: 1px solid var(--lp-border-color);
+	gap: 16px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.lp-search-field {
+	flex: 1;
+	min-width: 200px;
+	position: relative;
+}
+
+/* Stichwortsuche Input */
+.lp-search-field--keyword input {
+	width: 100%;
+	padding: 12px 16px 12px 42px;
+	border: 1.5px solid var(--lp-border-color);
+	border-radius: var(--lp-radius-md);
+	font-size: 14px;
+	font-weight: 500;
+	transition: var(--lp-transition);
+	background: var(--lp-bg-white);
+	color: var(--lp-text-dark);
+	height: 48px;
+	line-height: normal;
+}
+
+.lp-search-field--keyword input:focus {
+	border-color: var(--lp-primary);
+	box-shadow: 0 0 0 4px rgba(var(--lp-primary-rgb), 0.1);
+	outline: none;
+}
+
+.lp-search-icon {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--lp-text-light);
+	font-size: 18px;
+	pointer-events: none;
+}
+
+/* Dropdown / Select-Felder */
+.lp-search-field--select select {
+	width: 100%;
+	padding: 0 16px;
+	border: 1.5px solid var(--lp-border-color);
+	border-radius: var(--lp-radius-md);
+	font-size: 14px;
+	font-weight: 500;
+	height: 48px;
+	background: var(--lp-bg-white);
+	color: var(--lp-text-dark);
+	transition: var(--lp-transition);
+	cursor: pointer;
+	appearance: none;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 16px center;
+	background-size: 16px;
+	padding-right: 40px;
+}
+
+.lp-search-field--select select:focus {
+	border-color: var(--lp-primary);
+	box-shadow: 0 0 0 4px rgba(var(--lp-primary-rgb), 0.1);
+	outline: none;
+}
+
+.lp-search-actions {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+/* Buttons */
+.lp-btn {
+	height: 48px;
+	padding: 0 26px;
+	border-radius: var(--lp-radius-md);
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: var(--lp-transition);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	white-space: nowrap;
+}
+
+/* Primärer Suchen-Button */
+.lp-btn--primary {
+	background: var(--lp-primary);
+	color: #ffffff;
+}
+
+.lp-btn--primary:hover {
+	background: var(--lp-primary);
+	opacity: 0.95;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(var(--lp-primary-rgb), 0.25);
+}
+
+.lp-btn--primary:active {
+	transform: translateY(0);
+}
+
+/* Sekundärer Ortungs-Button ("Near Me") */
+.lp-btn--secondary {
+	background: #f1f5f9;
+	background: rgba(var(--lp-primary-rgb), 0.08);
+	color: var(--lp-primary);
+	padding: 0 16px;
+	border: 1px solid rgba(var(--lp-primary-rgb), 0.1);
+}
+
+.lp-btn--secondary:hover {
+	background: #e2e8f0;
+	background: rgba(var(--lp-primary-rgb), 0.15);
+	color: var(--lp-primary);
+	transform: translateY(-1px);
+	box-shadow: 0 4px 10px rgba(var(--lp-primary-rgb), 0.1);
+}
+
+.lp-btn--secondary:active {
+	transform: translateY(0);
+}
+
+.lp-btn--secondary .dashicons,
+.lp-btn--secondary i {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: inherit !important; /* Schutz vor globalen Overrides */
+}
+
+/* 2. SIDEBAR & CARD LAYOUT */
+.lp-layout {
+	display: flex;
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+/* Seitenleiste (Sidebar) */
+.lp-sidebar {
+	flex: 0 0 380px;
+	max-width: 380px;
+	background: var(--lp-bg-sidebar);
+	border-right: 1px solid var(--lp-border-color);
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+}
+
+html
+.lp-results-header {
+	padding: 20px 24px;
+	background: #ffffff;
+	border-bottom: 1px solid var(--lp-border-color);
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.lp-results-header-icon-wrap {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background: rgba(var(--lp-primary-rgb), 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	border: 1px solid rgba(var(--lp-primary-rgb), 0.15);
+}
+
+.lp-results-header-icon-wrap i {
+	color: var(--lp-primary) !important; /* gold/amber pin icon overridden dynamically */
+	font-size: 20px;
+}
+
+.lp-results-header-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.lp-results-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #0f172a;
+	margin: 0;
+	line-height: 1.2;
+}
+
+.lp-results-meta {
+	font-size: 13px;
+	font-weight: 500;
+	color: #64748b;
+	margin: 0;
+	line-height: 1.2;
+}
+
+/* Ergebnisse-Liste */
+.lp-results-list {
+	overflow-y: auto !important;
+	flex: 1;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	min-height: 0;
+}
+
+/* Desktop-Höhenbegrenzung zur Verhinderung des endlosen Streckens */
+@media (min-width: 769px) {
+	#locatorpress-wrapper .lp-layout {
+		height: var(--lp-map-height, 500px) !important;
+		max-height: var(--lp-map-height, 500px) !important;
+		flex-wrap: nowrap !important;
+		overflow: hidden !important;
+		display: flex !important;
+	}
+	#locatorpress-wrapper .lp-sidebar {
+		height: 100% !important;
+		max-height: 100% !important;
+		overflow: hidden !important;
+		display: flex !important;
+		flex-direction: column !important;
+		flex-shrink: 0 !important;
+	}
+	#locatorpress-wrapper .lp-results-list {
+		flex: 1 !important;
+		min-height: 0 !important;
+		overflow-y: auto !important;
+		overflow-x: hidden !important;
+	}
+	#locatorpress-wrapper .lp-map-view {
+		flex: 1 !important;
+		height: 100% !important;
+		min-height: 0 !important;
+	}
+}
+
+/* Premium Scrollbar für die Sidebar */
+.lp-results-list::-webkit-scrollbar {
+	width: 6px;
+}
+
+.lp-results-list::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.lp-results-list::-webkit-scrollbar-thumb {
+	background: #cbd5e1;
+	border-radius: 3px;
+}
+
+.lp-results-list::-webkit-scrollbar-thumb:hover {
+	background: #94a3b8;
+}
+
+/* Kartenbereich */
+.lp-map-view {
+	flex: 1;
+	min-width: 300px;
+	position: relative;
+	background: #f1f5f9;
+}
+
+/* 3. STANDORT-KARTEN (LOCATION CARDS) */
+/* ============================================================
+   3. STANDORT-KARTE (LOCATION CARD)
+
+   PC-Grid:
+     Row1: [Bild] | [Titel + Adresse]   | [>]
+     Row2: [Bild] | [Status-Pill]        | [>]
+     Row3: [Bild] | [Action-Buttons]     | [>]
+
+   Mobile-Grid:
+     Row1: [Bild] | [Titel + Adresse]   | [>]
+     Row2: [Status-Pill  volle Breite  ]
+     Row3: [─────── Divider ────────── ]
+     Row4: [📞 Anrufen | ✉ E-Mail | 🌐]
+   ============================================================ */
+
+.lp-card {
+	background: var(--lp-bg-white);
+	border: 1px solid #e2e8f0;
+	border-radius: 16px;
+	padding: 16px;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas:
+		"left info    chevron"
+		"left status  chevron"
+		"divider divider divider"
+		"actions actions actions";
+	column-gap: 14px;
+	row-gap: 0;
+	cursor: pointer;
+	transition: var(--lp-transition);
+	box-shadow: var(--lp-shadow-sm);
+	position: relative;
+	overflow: visible;
+	flex-shrink: 0 !important;
+	align-items: start;
+}
+
+/* Nummern-Badge: sitzt absolut INNERHALB des lp-card-media containers */
+.lp-card-number-badge {
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	background: var(--lp-primary);
+	color: #ffffff !important;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	z-index: 10;
+	border: 2px solid #ffffff;
+	pointer-events: none;
+}
+
+/* Wenn kein Bild: Badge steht eigenständig */
+.lp-card-number-badge--standalone {
+	position: static;
+	flex-shrink: 0;
+	align-self: center;
+}
+
+/* Hover-Status der Karte */
+.lp-card:hover,
+.lp-card--hover {
+	border-color: #cbd5e1 !important;
+	box-shadow: var(--lp-shadow-md);
+}
+
+/* Aktiver/Fokussierter Status der Karte */
+.lp-card--active {
+	border-color: var(--lp-primary) !important;
+	box-shadow: var(--lp-shadow-md), 0 0 0 3px rgba(var(--lp-primary-rgb), 0.1);
+	background: var(--lp-bg-white);
+}
+
+/* Eleganter linker Akzentstreifen für aktive Karten */
+.lp-card--active::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 4px;
+	background: var(--lp-primary);
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+.lp-card-left {
+	grid-area: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	align-self: stretch;
+}
+
+/* Bild-Container: quadratisch, mit relativem Kontext für den Badge. */
+.lp-card-media {
+	width: 110px;
+	height: 110px;
+	border-radius: 12px;
+	overflow: visible;
+	background: rgba(var(--lp-primary-rgb), 0.06);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #e2e8f0;
+	transition: var(--lp-transition);
+	position: relative;
+	flex-shrink: 0;
+}
+
+.lp-card:hover .lp-card-media,
+.lp-card--active .lp-card-media {
+	border-color: #cbd5e1;
+}
+
+.lp-card-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 12px;
+}
+
+/* Fallback Store-Icon */
+.lp-card-fallback-img {
+	color: #cbd5e1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+}
+
+.lp-card-fallback-img i {
+	font-size: 32px;
+	color: #cbd5e1 !important;
+}
+
+/* Info-Spalte: Titel + Adresse + (Pro) Tags */
+.lp-card-info {
+	grid-area: info;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width: 0;
+}
+
+/* Rückwärtskompatibilität: alte Templates nutzen lp-card-content */
+.lp-card-content {
+	grid-area: info;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width: 0;
+}
+
+/* Titel des Standorts */
+.lp-card-title {
+	font-size: 17px;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+	color: #0f172a;
+	line-height: 1.3;
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+/* Entfernungs-Badge */
+.lp-card-distance {
+	font-size: 11px;
+	font-weight: 700;
+	background: rgba(var(--lp-primary-rgb), 0.08);
+	color: var(--lp-primary);
+	padding: 2px 6px;
+	border-radius: var(--lp-radius-sm);
+	white-space: nowrap;
+}
+
+/* Adresse */
+.lp-card-address {
+	font-size: 13px;
+	color: #64748b;
+	margin: 0;
+	line-height: 1.5;
+	display: flex;
+	align-items: flex-start;
+	gap: 5px;
+	width: 100%;
+	text-align: left;
+}
+
+.lp-card-address-icon {
+	color: var(--lp-primary);
+	margin-top: 2px;
+	font-size: 12px;
+	flex-shrink: 0;
+}
+
+.lp-card-address-text {
+	color: #64748b;
+	text-align: left;
+}
+
+/* Öffnungszeiten-Status-Badge */
+.lp-card-status {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 3px 10px;
+	border-radius: 20px;
+	width: fit-content;
+	margin-bottom: 10px;
+}
+
+.lp-status-dot {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+/* Status: Geöffnet */
+.lp-card-status--open {
+	background: rgba(16, 185, 129, 0.10);
+	color: #059669;
+	border: 1px solid rgba(16, 185, 129, 0.20);
+}
+
+.lp-card-status--open .lp-status-dot {
+	background: #10b981;
+}
+
+/* Status: Geschlossen */
+.lp-card-status--closed {
+	background: rgba(239, 68, 68, 0.08);
+	color: #dc2626;
+	border: 1px solid rgba(239, 68, 68, 0.15);
+}
+
+.lp-card-status--closed .lp-status-dot {
+	background: #ef4444;
+}
+
+/* Tag-Badges (Pro) */
+.lp-card-tags {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	margin-top: 6px;
+}
+
+.lp-card-tag-badge {
+	background: rgba(37, 99, 235, 0.08);
+	color: #2563eb;
+	font-size: 10px;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+}
+
+/* Öffnungszeiten-Status-Badge (direktes Grid-Kind) */
+.lp-card-status {
+	grid-area: status;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 4px 12px;
+	border-radius: 9999px;
+	width: fit-content;
+	margin-top: 8px;
+	align-self: start;
+}
+
+.lp-status-dot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+/* Status: Geöffnet */
+.lp-card-status--open {
+	background: rgba(16, 185, 129, 0.12);
+	color: #059669;
+	border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.lp-card-status--open .lp-status-dot {
+	background: #10b981;
+}
+
+/* Status: Geschlossen */
+.lp-card-status--closed {
+	background: rgba(239, 68, 68, 0.08);
+	color: #dc2626;
+	border: 1px solid rgba(239, 68, 68, 0.15);
+}
+
+.lp-card-status--closed .lp-status-dot {
+	background: #ef4444;
+}
+
+/* Divider */
+.lp-card-divider {
+	grid-area: divider;
+	display: block;
+	height: 1px;
+	background: #e2e8f0;
+	margin: 12px 0;
+	align-self: stretch;
+	border: none;
+}
+
+/* Aktions-Buttons */
+.lp-card-actions {
+	grid-area: actions;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 0;
+	margin-top: 0;
+	align-self: stretch;
+}
+
+.lp-card-btn {
+	flex: 1;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	text-decoration: none !important;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	color: #64748b;
+	transition: color 0.2s ease;
+}
+
+.lp-card-btn:not(:last-child) {
+	border-right: 1px solid #e2e8f0;
+}
+
+.lp-card-btn-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	border-radius: 0;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.lp-card-btn-icon i {
+	color: var(--lp-primary) !important;
+	font-size: 22px !important;
+}
+
+.lp-card-btn-text {
+	display: block;
+	font-size: 11px;
+	font-weight: 500;
+	color: #64748b;
+	line-height: 1.2;
+}
+
+.lp-card-btn:hover .lp-card-btn-text,
+.lp-card-btn:hover .lp-card-btn-icon i {
+	color: var(--lp-primary) !important;
+	opacity: 0.85;
+}
+
+/* Chevron */
+.lp-card-chevron {
+	grid-area: chevron;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #94a3b8;
+	font-size: 14px;
+	padding-left: 4px;
+	align-self: center;
+	flex-shrink: 0;
+}
+
+.lp-card-chevron i {
+	color: #b0bec5 !important;
+}
+
+/* 4. DYNAMIC LOADER & PLACEHOLDERS */
+.lp-loader-placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	width: 100%;
+}
+
+.lp-pulse-loader {
+	width: 40px;
+	height: 40px;
+	background: var(--lp-primary);
+	border-radius: 50%;
+	opacity: 0.6;
+	animation: lp-pulse 1.2s infinite ease-in-out;
+}
+
+@keyframes lp-pulse {
+	0% {
+		transform: scale(0);
+		opacity: 0.8;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+/* 5. POPUP BALLOON (MAP) */
+.lp-popup {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	max-width: 240px;
+	padding: 4px;
+}
+
+.lp-popup-image {
+	width: 100%;
+	height: 110px;
+	overflow: hidden;
+	border-radius: var(--lp-radius-md);
+	margin-bottom: 10px;
+	background: #f1f5f9;
+}
+
+.lp-popup-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.lp-popup-title {
+	font-size: 15px;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+	color: var(--lp-text-dark);
+}
+
+.lp-popup-address {
+	font-size: 12px;
+	color: var(--lp-text-light);
+	margin: 0 0 10px 0;
+	line-height: 1.4;
+}
+
+.lp-popup-phone {
+	font-size: 12px;
+	margin: 0 0 12px 0;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: var(--lp-text-dark);
+}
+
+.lp-popup-btn {
+	background: var(--lp-primary);
+	color: #ffffff !important;
+	padding: 6px 14px;
+	font-size: 12px;
+	font-weight: 600;
+	border-radius: var(--lp-radius-sm);
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	transition: var(--lp-transition);
+}
+
+.lp-popup-btn:hover {
+	opacity: 0.9;
+	box-shadow: 0 3px 8px rgba(var(--lp-primary-rgb), 0.2);
+}
+
+.lp-popup-btn .dashicons,
+.lp-popup-btn i {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+	color: inherit !important; /* Schutz vor globalen Overrides */
+}
+
+/* Leaflet Popup Fixes für SaaS Design */
+.leaflet-popup-content-wrapper {
+	border-radius: var(--lp-radius-lg) !important;
+	box-shadow: var(--lp-shadow-lg) !important;
+	padding: 8px !important;
+	border: 1px solid var(--lp-border-color);
+}
+
+.leaflet-popup-tip-container {
+	margin-top: -1px;
+}
+
+.leaflet-popup-tip {
+	box-shadow: var(--lp-shadow-md) !important;
+	border: 1px solid var(--lp-border-color);
+}
+
+/* Zoom-Tasten & Kartensteuerelemente-Design */
+.leaflet-bar {
+	border: none !important;
+	box-shadow: var(--lp-shadow-md) !important;
+	border-radius: var(--lp-radius-md) !important;
+	overflow: hidden;
+}
+
+.leaflet-bar a, 
+.leaflet-bar a:hover {
+	background: #ffffff !important;
+	color: var(--lp-text-dark) !important;
+	border-bottom: 1px solid var(--lp-border-color) !important;
+	transition: var(--lp-transition);
+	width: 34px !important;
+	height: 34px !important;
+	line-height: 34px !important;
+	font-size: 16px !important;
+}
+
+.leaflet-bar a:hover {
+	background: #f8fafc !important;
+	color: var(--lp-primary) !important;
+}
+
+.leaflet-bar a:first-child {
+	border-top-left-radius: var(--lp-radius-md) !important;
+	border-top-right-radius: var(--lp-radius-md) !important;
+}
+
+.leaflet-bar a:last-child {
+	border-bottom-left-radius: var(--lp-radius-md) !important;
+	border-bottom-right-radius: var(--lp-radius-md) !important;
+	border-bottom: none !important;
+}
+
+/* 6. RESPONSIVE OPTIMIERUNGEN */
+@media (max-width: 992px) {
+	.lp-sidebar {
+		flex: 0 0 320px;
+		max-width: 320px;
+	}
+}
+
+@media (max-width: 768px) {
+	.lp-search-bar {
+		flex-direction: column;
+		align-items: stretch;
+		padding: 16px;
+		gap: 12px;
+	}
+	
+	.lp-search-field {
+		width: 100%;
+	}
+	
+	.lp-search-actions {
+		width: 100%;
+		justify-content: stretch;
+	}
+	
+	.lp-search-actions button {
+		flex: 1;
+	}
+	
+	#locatorpress-wrapper .lp-layout {
+		display: flex !important;
+		flex-direction: column !important;
+		position: relative !important;
+		height: 480px !important;
+		max-height: 480px !important;
+		overflow: hidden !important;
+	}
+	
+	#locatorpress-wrapper .lp-sidebar {
+		position: absolute !important;
+		bottom: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		z-index: 1000 !important;
+		background: transparent !important;
+		border-right: none !important;
+		border-top: none !important;
+		pointer-events: none !important;
+		padding: 0 !important;
+		max-height: 270px !important;
+	}
+	
+	#locatorpress-wrapper .lp-results-header {
+		display: none !important;
+	}
+	
+	#locatorpress-wrapper .lp-results-list {
+		display: flex !important;
+		flex-direction: row !important;
+		overflow-x: auto !important;
+		overflow-y: hidden !important;
+		scroll-snap-type: x mandatory !important;
+		gap: 12px !important;
+		padding: 10px 16px 20px 16px !important;
+		pointer-events: auto !important;
+		width: 100% !important;
+		height: auto !important;
+		max-height: none !important;
+		min-height: 0 !important;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	#locatorpress-wrapper .lp-results-list::-webkit-scrollbar {
+		display: none !important;
+	}
+	
+	/* Mobile-Slider: Karten als horizontaler Scroll-Streifen, 4-Zeilen-Grid */
+	#locatorpress-wrapper .lp-card {
+		flex: 0 0 290px !important;
+		width: 290px !important;
+		height: auto !important;
+		scroll-snap-align: center !important;
+		background: #ffffff !important;
+		box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05) !important;
+		padding: 12px !important;
+		margin: 0 !important;
+		pointer-events: auto !important;
+		overflow: visible !important;
+		align-items: start !important;
+	}
+
+	#locatorpress-wrapper .lp-card--active {
+		border-color: var(--lp-primary) !important;
+		box-shadow: 0 10px 20px rgba(var(--lp-primary-rgb), 0.15) !important;
+	}
+
+	#locatorpress-wrapper .lp-card--active::before {
+		display: none !important;
+	}
+
+	/* Bild auf Mobile: kompakter */
+	#locatorpress-wrapper .lp-card-media {
+		width: 88px !important;
+		height: 88px !important;
+		border-radius: 10px !important;
+	}
+
+	#locatorpress-wrapper .lp-card-title {
+		font-size: 14px !important;
+		margin-bottom: 3px !important;
+	}
+
+	#locatorpress-wrapper .lp-card-address {
+		font-size: 11px !important;
+		margin-bottom: 0 !important;
+	}
+
+	#locatorpress-wrapper .lp-card-address-text {
+		display: -webkit-box !important;
+		-webkit-line-clamp: 2 !important;
+		-webkit-box-orient: vertical !important;
+		overflow: hidden !important;
+		text-overflow: ellipsis !important;
+	}
+
+	/* Status-Badge: zweite Zeile, volle Breite */
+	#locatorpress-wrapper .lp-card-status {
+		padding: 4px 12px !important;
+		font-size: 11px !important;
+		margin-top: 8px !important;
+		margin-bottom: 0 !important;
+	}
+
+	/* Legacy-Template: lp-card-footer + lp-card-link auf Mobile */
+	#locatorpress-wrapper .lp-card-footer {
+		display: flex !important;
+		flex-direction: row !important;
+		gap: 8px !important;            /* Etwas weniger Abstand auf Mobile */
+		align-items: center !important;
+		justify-content: flex-start !important;   /* Immer linksbündig */
+		margin-top: auto !important;
+		padding-top: 4px !important;
+		flex-wrap: nowrap !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link {
+		width: 32px !important;         /* Kleiner für Mobile */
+		height: 32px !important;
+		border-radius: 50% !important;
+		border: 1.5px solid #e2e8f0 !important;
+		background: #f8fafc !important;
+		color: var(--lp-primary) !important;
+		display: inline-flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-decoration: none !important;
+		flex-shrink: 0 !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link:hover {
+		background: #fffbeb !important;
+		border-color: var(--lp-primary) !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link i {
+		color: var(--lp-primary) !important;
+		font-size: 13px !important;
+	}
+
+	#locatorpress-wrapper .lp-map-view {
+		height: 100% !important;
+		width: 100% !important;
+		flex: 1 !important;
+	}
+}
+
+/* 7. CUSTOM PIN STYLES FÜR FONT AWESOME & IMAGE MARKER */
+.lp-custom-div-icon {
+	background: transparent !important;
+	border: none !important;
+}
+
+.lp-marker-pin-wrapper {
+	position: relative;
+	width: 36px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lp-marker-pin {
+	position: relative;
+	width: 36px;
+	height: 46px;
+	transform-origin: bottom center;
+	transition: var(--lp-transition);
+	z-index: 2;
+}
+
+.lp-marker-pin-svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.15));
+	transition: var(--lp-transition);
+}
+
+
+
+/* Hover-Effekte (Enlarge & Soft Glow) */
+.lp-marker-pin-wrapper:hover .lp-marker-pin,
+.lp-marker--highlighted .lp-marker-pin {
+	transform: scale(1.08) translateY(-2px);
+	filter: drop-shadow(0 0 8px rgba(var(--marker-color-rgb, var(--lp-primary-rgb)), 0.6)) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+/* Active State (Breathing Pulse, Dual Ripples, z-index elevation) */
+.lp-marker--active {
+	z-index: 1000 !important;
+}
+
+.lp-marker--active .lp-marker-pin {
+	animation: lp-beacon-pulse 2s ease-in-out infinite;
+	filter: drop-shadow(0 0 10px rgba(var(--marker-color-rgb, var(--lp-primary-rgb)), 0.75)) drop-shadow(0 6px 8px rgba(0, 0, 0, 0.2));
+	z-index: 1000;
+}
+
+/* Ripple Rings base */
+.lp-marker-ripple-ring {
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 8px;
+	height: 8px;
+	margin-left: -4px;
+	margin-top: -4px;
+	border-radius: 50%;
+	background: var(--marker-color, var(--lp-primary));
+	border: 1px solid var(--marker-color, var(--lp-primary));
+	pointer-events: none;
+	opacity: 0;
+	transform: scale(1);
+	z-index: -1;
+}
+
+/* Active animations for ripples */
+.lp-marker--active .lp-ripple-1 {
+	animation: lp-ripple-animation 2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+}
+
+.lp-marker--active .lp-ripple-2 {
+	animation: lp-ripple-animation 2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+	animation-delay: 1s;
+}
+
+/* Animation keyframes */
+@keyframes lp-beacon-pulse {
+	0%, 100% {
+		transform: scale(1.08);
+	}
+	50% {
+		transform: scale(1.16);
+	}
+}
+
+@keyframes lp-ripple-animation {
+	0% {
+		transform: scale(0.5);
+		opacity: 0.6;
+	}
+	100% {
+		transform: scale(5);
+		opacity: 0;
+	}
+}
+
+/* Responsive Overrides (Mobile) */
+@media (max-width: 768px) {
+	@keyframes lp-ripple-animation {
+		0% {
+			transform: scale(0.5);
+			opacity: 0.6;
+		}
+		100% {
+			transform: scale(3.8); /* Giảm kích thước ripple ~20% */
+			opacity: 0;
+		}
+	}
+}
+
+
+
+/* ============================================================
+   10. LEGACY MOBILE SUPPORT
+   Nur für alte lp-card-footer / lp-card-link Strukturen.
+   ============================================================ */
+@media (max-width: 768px) {
+	/* Legacy lp-card-footer */
+	#locatorpress-wrapper .lp-card-footer {
+		display: flex !important;
+		flex-direction: row !important;
+		gap: 8px !important;
+		align-items: center !important;
+		justify-content: flex-start !important;
+		margin-top: 8px !important;
+		padding-top: 0 !important;
+		flex-wrap: nowrap !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link {
+		width: 32px !important;
+		height: 32px !important;
+		border-radius: 50% !important;
+		border: 1.5px solid #e2e8f0 !important;
+		background: #f8fafc !important;
+		color: var(--lp-primary) !important;
+		display: inline-flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-decoration: none !important;
+		flex-shrink: 0 !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link:hover {
+		background: #fffbeb !important;
+		border-color: var(--lp-primary) !important;
+	}
+
+	#locatorpress-wrapper .lp-card-footer .lp-card-link i {
+		color: var(--lp-primary) !important;
+		font-size: 13px !important;
+	}
+}
